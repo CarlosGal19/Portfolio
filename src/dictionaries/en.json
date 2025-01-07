@@ -90,5 +90,30 @@
                 "alt": "CFE"
             }
         ]
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "If you want to contact me, you can send me an email or follow me on my social networks.",
+        "contactTitle": "Contact me at",
+        "socialNetworks": [
+            {
+                "name": "GitHub",
+                "href": "https://github.com/CarlosGal19",
+                "icon": "/github.svg",
+                "username": "CarlosGal19"
+            },
+            {
+                "name": "LinkedIn",
+                "href": "https://www.linkedin.com/in/carlosgalindoislas/",
+                "icon": "/linkedin.svg",
+                "username": "carlosgalindoislas"
+            },
+            {
+                "name": "Email",
+                "href": "mailto:c.galindo.islas@gmail.com",
+                "icon": "/email.svg",
+                "username": "c.galindo.islas@gmail.com"
+            }
+        ]
     }
 }

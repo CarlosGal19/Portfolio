@@ -21,7 +21,7 @@ const Links = [
         text: "Experience"
     },
     {
-        href: "#",
+        href: "/contact",
         text: "Contact"
     }
 ]
