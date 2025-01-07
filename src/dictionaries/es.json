@@ -1,0 +1,94 @@
+{
+    "main": {
+        "title": "Hola, soy Carlos Galindo",
+        "subtitle": "Soy desarrollador de software",
+        "description": "Cuento con experiencia en desarrollo web tanto frontend (Nextjs, React) como backend (Nodejs, .NET), así como en bases de datos (SQL Server, PostgreSQL, MySQL, MongoDB)."
+    },
+    "about": {
+        "title": "Sobre mí",
+        "description": "Soy desarrollador de software con experiencia en desarrollo web tanto frontend (Nextjs, React) como backend (Nodejs, .NET), así como en bases de datos (SQL Server, PostgreSQL, MySQL, MongoDB). Soy apasionado por la tecnología y siempre estoy buscando aprender cosas nuevas.",
+        "currentStack": "Mi Stack actual",
+        "stack": "Tecnologías con las que he trabajado",
+        "certifications": "Certificaciones"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Algunos de los proyectos en los que he trabajado",
+        "projects": [
+            {
+                "name": "Sistema de Gestión de Horas Extras de Trabajadores de la CFE",
+                "description": "Aplicación web para gestionar y registrar las horas extras de los trabajadores de la CFE (Comisión Federal de Electricidad).",
+                "technologies": ["React","Context API", ".NET", "SQL Server"],
+                "completed": true
+            },
+            {
+                "name": "Sistema de Gestión de Biblioteca de la UTMA",
+                "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
+                "technologies": ["Nextjs", "MySQL", ".NET"],
+                "href": [
+                    "/utma-1.jpg", "/utma-2.jpg", "/utma-3.jpg"
+                ],
+                "alt": "Sistema de Gestión de Biblioteca de la UTMA",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+                "completed": true
+            },
+            {
+                "name": "Microservicios con Nodejs",
+                "description": "Aplicación CRUD con arquitectura de microservicios utilizando Nodejs y express como backend, Next como frontend y PostgreSQL como base de datos.",
+                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma"],
+                "href": [
+                    "/microservices-1.jpg", "/microservices-2.jpg", "/microservices-3.jpg"
+                ],
+                "alt": "Microservicios con Nodejs",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
+                "completed": true
+            },
+            {
+                "name": "Microservicios con Docker",
+                "description": "Aplicación CRUD con arquitectura de microservicios utilizando Docker, Nodejs y express como backend, Next como frontend y PostgreSQL como base de datos.",
+                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma", "Docker"],
+                "completed": false
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experiencia",
+        "description": "Estudios y experiencia laboral",
+        "studiesTitle": "Estudios",
+        "studies": [
+            {
+                "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
+                "degree": "Técnico en Programación",
+                "date": "2019 - 2022",
+                "href": "/cbtis-282.jpg",
+                "alt": "CBTIS 282"
+            },
+            {
+                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+                "degree": "Técnico Superior Universitario en Tecnologías de la Información área desarrollo de software",
+                "date": "2022 - 2024",
+                "href": "/utma.jpeg",
+                "alt": "UTMA"
+            },
+            {
+                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+                "degree": "Ingeniería en Tecnologías de la Información área desarrollo de software",
+                "date": "2024 - Actualmente",
+                "href": "/utma.jpeg",
+                "alt": "UTMA"
+            }
+        ],
+        "workTitle": "Experiencia Laboral",
+        "workExperience": [
+            {
+                "company": "Comisión Federal de Electricidad",
+                "position": "Desarrollador de Software",
+                "description": "Desarrollo de sistema para la gestión de horas extras de los trabajadores de la CFE.",
+                "technologies": ["React", ".NET", "SQL Server"],
+                "date": "Agosto 2024 - Diciembre 2024",
+                "href": "/cfe.jpg",
+                "alt": "CFE"
+            }
+        ]
+    }
+}

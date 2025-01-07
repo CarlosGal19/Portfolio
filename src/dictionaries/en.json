@@ -1,0 +1,94 @@
+{
+    "main": {
+        "title": "Hi, I'm Carlos Galindo",
+        "subtitle": "I'm a software developer",
+        "description": "I have experience in web development both frontend (Nextjs, React) and backend (Nodejs, .NET), as well as in databases (SQL Server, PostgreSQL, MySQL, MongoDB)."
+    },
+    "about": {
+        "title": "About me",
+        "description": "Software developer with experience in web development. I am passionate about technology and I am always looking to learn new things.",
+        "currentStack": "My current Stack",
+        "stack": "Technologies I have worked with",
+        "certifications": "Certifications"
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "Some of the projects I have worked on",
+        "projects": [
+            {
+                "name": "CFE Workers Overtime Manager System",
+                "description": "Web application to manage and record the overtime of the workers of the CFE (Comisión Federal de Electricidad).",
+                "technologies": ["React","Context API", ".NET", "SQL Server"],
+                "completed": true
+            },
+            {
+                "name": "UTMA Library Management System",
+                "description": "Web application to manage the library of the UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
+                "technologies": ["Nextjs", "MySQL", ".NET"],
+                "href": [
+                    "/utma-1.jpg", "/utma-2.jpg", "/utma-3.jpg"
+                ],
+                "alt": "UTMA Library Management System",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+                "completed": true
+            },
+            {
+                "name": "Microservices with Nodejs",
+                "description": "CRUD application with microservices architecture using Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
+                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma"],
+                "href": [
+                    "/microservices-1.jpg", "/microservices-2.jpg", "/microservices-3.jpg"
+                ],
+                "alt": "Microservices with Nodejs",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
+                "completed": true
+            },
+            {
+                "name": "Microservices with Docker",
+                "description": "CRUD application with microservices architecture using Docker, Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
+                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma", "Docker"],
+                "completed": false
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "description": "Studies and work experience",
+        "studiesTitle": "Studies",
+        "studies": [
+            {
+                "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
+                "degree": "Technician in Programming",
+                "date": "2019 - 2022",
+                "href": "/cbtis-282.jpg",
+                "alt": "CBTIS 282"
+            },
+            {
+                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+                "degree": "Higher Technician in Information Technologies software development area",
+                "date": "2022 - 2024",
+                "href": "/utma.jpeg",
+                "alt": "UTMA"
+            },
+            {
+                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+                "degree": "Engineering in Information Technologies software development area",
+                "date": "2024 - Currently",
+                "href": "/utma.jpeg",
+                "alt": "UTMA"
+            }
+        ],
+        "workTitle": "Work Experience",
+        "workExperience": [
+            {
+                "company": "Comisión Federal de Electricidad",
+                "position": "Software Developer Intern",
+                "description": "Development of system for the management of the CFE workers.",
+                "technologies": ["React", ".NET", "SQL Server", "Python"],
+                "date": "August 2024 - December 2024",
+                "href": "/cfe.jpg",
+                "alt": "CFE"
+            }
+        ]
+    }
+}
