@@ -2,7 +2,6 @@ export interface ContactProps {
     title: string;
     description: string;
     contactTitle: string;
-    email: string;
     socialNetworks: SocialNetwork[];
 }
 
