@@ -54,7 +54,7 @@ export default function Header() {
                 <Link href="/"
                     aria-label="Home"
                 >
-                    <CIcon />
+                    <CIcon fill="#FFFFFF" />
                 </Link>
             </motion.div>
             <nav
@@ -88,6 +88,11 @@ export default function Header() {
                                 height={50}
                                 priority={true}
                             />
+                        </div>
+                        <div
+                            className="mb-16"
+                        >
+                            <CIcon fill="#000044" width={72} height={72} />
                         </div>
                         <ul className="space-y-20 text-[#000044] text-2xl font-bold">
                             {Links.map((link, index) => (
