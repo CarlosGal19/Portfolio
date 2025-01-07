@@ -92,9 +92,14 @@ export default function Header() {
                         <div
                             className="mb-16"
                         >
-                            <CIcon fill="#000044" width={72} height={72} />
+                            <Link href="/"
+                                onClick={() => setShowMobileMenu(false)}
+                                aria-label="Home"
+                            >
+                                <CIcon fill="#000044" width={72} height={72} />
+                            </Link>
                         </div>
-                        <ul className="space-y-20 text-[#000044] text-2xl font-bold">
+                        <ul className="space-y-20 text-[#000044] text-2xl font-bold flex flex-col items-center">
                             {Links.map((link, index) => (
                                 <li key={index}>
                                     <Link
