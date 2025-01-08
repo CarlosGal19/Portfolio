@@ -9,7 +9,28 @@
         "description": "I consider myself a person who is always looking to learn new things, I am a person who likes to work in a team and I am always looking to help others.",
         "currentStack": "My current Stack",
         "stack": "Technologies I have worked with",
-        "certifications": "Certifications"
+        "certificationsTitle": "Certifications",
+        "certifications": [
+            {
+                "href": "/python.jpg",
+                "name": "Aprendiendo Python Nivel Intermedio",
+                "provider": "IA Center",
+                "alt": "Aprendiendo Python Nivel Intermedio"
+            },
+            {
+                "href": "/itep.jpg",
+                "name": "ITEP",
+                "provider": "International Test of English Proficiency",
+                "alt": "ITEP"
+            },
+            {
+                "href": "/scrum.jpg",
+                "name": "Scrum Fundamentals Certified",
+                "provider": "CertiProf",
+                "alt": "Scrum Fundamentals Certified"
+            }
+        ]
+
     },
     "projects": {
         "title": "Projects",

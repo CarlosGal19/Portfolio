@@ -4,49 +4,21 @@ import { AboutProps } from '@/types/about'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-
-type Certification = {
-    href: string;
-    name: string;
-    provider: string;
-    alt: string;
-}
-
-const certifications: Certification[] = [
-    {
-        href: '/python.jpg',
-        name: "Aprendiendo Python Nivel Intermedio",
-        provider: "IA Center",
-        alt: "Aprendiendo Python Nivel Intermedio"
-    },
-    {
-        href: '/itep.jpg',
-        name: "ITEP",
-        provider: "International Test of English Proficiency",
-        alt: "ITEP"
-    },
-    {
-        href: '/scrum.jpg',
-        name: "Scrum Fundamentals Certified",
-        provider: "CertiProf",
-        alt: "Scrum Fundamentals Certified"
-    }
-]
+import CustomCertificate from './CustomCertificate'
 
 export default function About({ about }: { about: AboutProps }) {
 
     const [windowWidth, setWindowWidth] = useState<number>(0);
 
     useEffect(() => {
-        // Actualiza el ancho de la ventana cuando el componente se monta
         const handleResize = () => setWindowWidth(window.innerWidth);
 
-        handleResize(); // Inicializa el tamaño al cargar
+        handleResize();
 
         window.addEventListener("resize", handleResize);
 
         return () => {
-            window.removeEventListener("resize", handleResize); // Limpia el evento al desmontar
+            window.removeEventListener("resize", handleResize);
         };
     }, []);
 
@@ -127,13 +99,13 @@ export default function About({ about }: { about: AboutProps }) {
                 <h2
                     className="text-5xl text-center my-6"
                 >
-                    {about.certifications}
+                    {about.certificationsTitle}
                 </h2>
                 <div
                     className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'
                 >
                     {
-                        certifications.map((certification, index) => (
+                        about.certifications.map((certification, index) => (
                             <CustomCertificate
                                 certification={certification}
                                 key={index}
@@ -145,32 +117,3 @@ export default function About({ about }: { about: AboutProps }) {
         </div>
     )
 }
-
-function CustomCertificate({ certification }: { certification: Certification }) {
-    return (
-        <div
-            className="flex flex-col items-center gap-4 justify-evenly"
-        >
-            <Image
-                src={certification.href}
-                alt={certification.alt}
-                width={300}
-                height={300}
-                className="rounded-md"
-            />
-            <div className="flex flex-col items-center">
-                <p
-                    className="text-2xl text-center font-semibold"
-                >
-                    {certification.name}
-                </p>
-                <p
-                    className="text-xl text-center text-gray-500"
-                >
-                    {certification.provider}
-                </p>
-            </div>
-        </div>
-    );
-}
-
