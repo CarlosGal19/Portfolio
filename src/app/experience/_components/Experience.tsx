@@ -33,26 +33,6 @@ export default function Experience({ experience }: { experience: ExperienceProps
                         </p>
                     </section>
                     <section
-                    >
-                        <h2
-                            className="text-7xl text-center"
-                        >
-                            {experience.studiesTitle}
-                        </h2>
-                        <div
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-5/6 container mx-auto mt-12"
-                        >
-                            {
-                                experience.studies.map((study, index) => (
-                                    <CustomExperience
-                                        key={index}
-                                        study={study}
-                                    />
-                                ))
-                            }
-                        </div>
-                    </section>
-                    <section
                         className='mt-20'
                     >
                         <h2
@@ -68,6 +48,26 @@ export default function Experience({ experience }: { experience: ExperienceProps
                                     <CustomWork
                                         key={index}
                                         work={work}
+                                    />
+                                ))
+                            }
+                        </div>
+                    </section>
+                    <section
+                    >
+                        <h2
+                            className="text-7xl text-center"
+                        >
+                            {experience.studiesTitle}
+                        </h2>
+                        <div
+                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-5/6 container mx-auto mt-12"
+                        >
+                            {
+                                experience.studies.map((study, index) => (
+                                    <CustomExperience
+                                        key={index}
+                                        study={study}
                                     />
                                 ))
                             }
