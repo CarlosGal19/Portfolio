@@ -15,7 +15,7 @@ export default function CustomExperience({ study }: { study: Study }) {
                     className="object-cover rounded-md"
                 />
             </div>
-            <div className="flex flex-col mt-8 md:mt-0">
+            <div className="flex flex-col mt-2 md:mt-0">
                 <h3 className="text-xl font-semibold">{study.name}</h3>
                 <p>{study.degree}</p>
                 <p className="text-sm">{study.date}</p>
