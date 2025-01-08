@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
+import GIcon from "./Icons/GIcon";
 
 const Links = [
     {
@@ -53,8 +54,10 @@ export default function Header() {
             >
                 <Link href="/"
                     aria-label="Home"
+                    className="flex"
                 >
                     <CIcon fill="#FFFFFF" />
+                    <GIcon fill="#FFFFFF" />
                 </Link>
             </motion.div>
             <nav
@@ -95,8 +98,10 @@ export default function Header() {
                             <Link href="/"
                                 onClick={() => setShowMobileMenu(false)}
                                 aria-label="Home"
+                                className="flex"
                             >
                                 <CIcon fill="#000044" width={72} height={72} />
+                                <GIcon fill="#000044" width={72} height={72} />
                             </Link>
                         </div>
                         <ul className="space-y-20 text-[#000044] text-2xl font-bold flex flex-col items-center">
