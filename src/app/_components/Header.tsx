@@ -3,10 +3,11 @@
 import Link from "next/link";
 import CIcon from "./Icons/CIcon";
 import { AnimatePresence, motion } from "framer-motion";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 import GIcon from "./Icons/GIcon";
+import DesktopNavigationItem from "./Header/DesktopNavigationItem";
+import MobileNavigationItem from "./Header/MobileNavigationItem";
 
 const Links = [
     {
@@ -66,7 +67,7 @@ export default function Header() {
                 <ul className="flex justify-evenly items-center space-x-12 text-xl font-medium">
                     {
                         Links.map((link, index) => (
-                            <CustomListItem key={index} href={link.href} text={link.text} />
+                            <DesktopNavigationItem key={index} href={link.href} text={link.text} />
                         ))
                     }
                 </ul>
@@ -106,40 +107,12 @@ export default function Header() {
                         </div>
                         <ul className="space-y-20 text-[#000044] text-2xl font-bold flex flex-col items-center">
                             {Links.map((link, index) => (
-                                <li key={index}>
-                                    <Link
-                                        href={link.href}
-                                        onClick={() => setShowMobileMenu(false)}
-                                        className="hover:text-blue-300"
-                                    >
-                                        {link.text}
-                                    </Link>
-                                </li>
+                                <MobileNavigationItem key={index} link={link} setShowMobileMenu={setShowMobileMenu} />
                             ))}
                         </ul>
                     </motion.div>
                 )}
             </AnimatePresence>
         </header>
-    )
-}
-
-function CustomListItem({ href, text }: { href: string, text: string }) {
-
-    const pathName = usePathname();
-
-    return (
-        <motion.li
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="cursor-pointer"
-        >
-            <Link
-                href={href}
-                className={`hover:text-blue-200 ${pathName === href ? "text-blue-200" : ""}`}
-            >
-                {text}
-            </Link>
-        </motion.li>
     )
 }
