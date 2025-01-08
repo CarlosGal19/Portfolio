@@ -33,7 +33,7 @@ export default function Experience({ experience }: { experience: ExperienceProps
                         </p>
                     </section>
                     <section
-                        className='mt-20'
+                        className='mb-20'
                     >
                         <h2
                             className="text-7xl text-center"
