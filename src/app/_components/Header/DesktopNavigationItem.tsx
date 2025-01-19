@@ -15,8 +15,8 @@ export default function DesktopNavigationItem({ href, text }: { href: string, te
                 className={`hover:text-blue-200 ${pathName === href ? "text-blue-200" : ""}`}
             >
                 <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.15 }}
+                    whileTap={{ scale: 1 }}
 
                 >
                     {text}
