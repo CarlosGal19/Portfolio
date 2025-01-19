@@ -74,6 +74,12 @@
                 "alt": "Microservices with Docker and Nodejs",
                 "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
                 "completed": true
+            },
+            {
+                "name": "GraphNodes App",
+                "description": "Web application to create and manage nodes and relationships between them, applying graph theory and Dijkstra's algorithm to find the shortest path between two nodes.",
+                "technologies": ["React", "Zustand", "Motion"],
+                "completed": false
             }
         ]
     },
