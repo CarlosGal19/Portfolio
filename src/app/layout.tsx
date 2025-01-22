@@ -5,7 +5,7 @@ import Header from "./_components/Header";
 
 export const metadata: Metadata = {
   title: "Carlos Galindo Portfolio",
-  description: "Carlos Galindo Portfolio developed with Next.js",
+  description: "Carlos Galindo is a JR. Fullstack Developer enthusiast for learning technologies and apply his knowledge in professional projects.",
 };
 
 export default function RootLayout({
