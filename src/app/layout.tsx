@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import league_spartan from "./fonts/fonts";
 import "./globals.css";
 import Header from "./_components/Header";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Carlos Galindo Portfolio",
@@ -24,6 +25,7 @@ export default function RootLayout({
             <Header />
             <main className="w-auto flex justify-center items-center">
                 {children}
+                <Analytics />
             </main>
         </div>
       </body>
