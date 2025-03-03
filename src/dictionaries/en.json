@@ -74,6 +74,14 @@
                 "alt": "Microservices with Docker and Nodejs",
                 "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
                 "completed": true
+            },
+            {
+                "name": "Atenea",
+                "description": "Uncentralized system for the management, follow-up and analysis of police reports. Developed for the Cybersecurity Hackathon by Fundación Dedica and Seguridad Pública de Aguascalientes.",
+                "technologies": ["Motoko (DFX)", "React", "React Native", "Rust"],
+                "alt": "Atenea",
+                "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
+                "completed": true
             }
         ]
     },
