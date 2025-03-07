@@ -82,6 +82,12 @@
                 "alt": "Atenea",
                 "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
                 "completed": true
+            },
+            {
+                "name": "Talent Quest",
+                "description": "Platform of courses and certifications for the development of skills and competencies.. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
+                "technologies": ["React", "Nodejs", "Express", "MySQL", "Prisma", "Zustand"],
+                "completed": false
             }
         ]
     },
