@@ -93,7 +93,7 @@
     },
     "experience": {
         "title": "Experience",
-        "description": "Work experience and studies",
+        "description": "Works and studies",
         "studiesTitle": "Studies",
         "studies": [
             {
@@ -118,7 +118,7 @@
                 "alt": "UTMA"
             }
         ],
-        "workTitle": "Work Experience",
+        "workTitle": "Work",
         "workExperience": [
             {
                 "company": "Comisión Federal de Electricidad",
@@ -133,7 +133,7 @@
     },
     "contact": {
         "title": "Contact",
-        "description": "If you want to contact me, you can send me an email or follow me on my social networks.",
+        "description": "You can send me an email or follow me on my social networks.",
         "contactTitle": "Contact me at",
         "socialNetworks": [
             {
@@ -151,8 +151,7 @@
             {
                 "name": "Email",
                 "href": "mailto:c.galindo.islas@gmail.com",
-                "icon": "/email.svg",
-                "username": "c.galindo.islas@gmail.com"
+                "icon": "/email.svg"
             }
         ]
     }

@@ -9,5 +9,5 @@ export interface SocialNetwork {
     name: string;
     href: string;
     icon: string;
-    username: string;
+    username?: string;
 }

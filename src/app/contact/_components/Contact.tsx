@@ -34,11 +34,6 @@ export default function Contact({ contact }: { contact: ContactProps }) {
                         </p>
                     </section>
                     <section>
-                        <h2
-                            className="text-7xl text-center"
-                        >
-                            {contact.contactTitle}
-                        </h2>
 
                         <ul
                             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-5/6 container mx-auto mt-12"
@@ -77,9 +72,13 @@ function CustomSocial({ social }: { social: SocialNetwork }) {
                     height={48}
                     className="w-12 h-12"
                 />
-                <p>
-                    {social.username}
-                </p>
+                {
+                    social.username && (
+                        <p>
+                            {social.username}
+                        </p>
+                    )
+                }
             </Link>
         </li>
     )
