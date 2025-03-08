@@ -69,7 +69,7 @@
                 "description": "CRUD application with microservices architecture using Docker, Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
                 "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma", "Docker"],
                 "href": [
-                    "/microservices-1.jpg", "/microservices-2.jpg", "/microservices-3.jpg"
+                    "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
                 ],
                 "alt": "Microservices with Docker and Nodejs",
                 "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
