@@ -39,13 +39,13 @@
             {
                 "name": "CFE Workers Overtime Manager System",
                 "description": "Web application to manage and record the overtime of the workers of the CFE (Comisión Federal de Electricidad).",
-                "technologies": ["React","Context API", ".NET", "SQL Server"],
+                "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
                 "completed": true
             },
             {
                 "name": "UTMA Library Management System",
                 "description": "Web application to manage the library of the UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
-                "technologies": ["Nextjs", "MySQL", ".NET"],
+                "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
                 "href": [
                     "/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"
                 ],
@@ -56,7 +56,7 @@
             {
                 "name": "Microservices with Nodejs",
                 "description": "CRUD application with microservices architecture using Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
-                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma"],
+                "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg"],
                 "href": [
                     "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
                 ],
@@ -67,7 +67,7 @@
             {
                 "name": "Microservices with Docker",
                 "description": "CRUD application with microservices architecture using Docker, Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
-                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma", "Docker"],
+                "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
                 "href": [
                     "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
                 ],
@@ -78,7 +78,7 @@
             {
                 "name": "Atenea",
                 "description": "Uncentralized system for the management, follow-up and analysis of police reports. Developed for the Cybersecurity Hackathon by Fundación Dedica and Seguridad Pública de Aguascalientes.",
-                "technologies": ["Motoko (DFX)", "React", "React Native", "Rust"],
+                "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
                 "alt": "Atenea",
                 "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
                 "completed": true
@@ -86,7 +86,7 @@
             {
                 "name": "Talent Quest",
                 "description": "Platform of courses and certifications for the development of skills and competencies.. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
-                "technologies": ["React", "Nodejs", "Express", "MySQL", "Prisma", "Zustand"],
+                "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg"],
                 "completed": false
             }
         ]
