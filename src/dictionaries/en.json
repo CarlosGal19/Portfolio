@@ -124,8 +124,8 @@
                 "company": "Comisión Federal de Electricidad",
                 "position": "Software Developer Intern",
                 "description": "Development of system for the management of the CFE workers.",
-                "technologies": ["React", ".NET", "SQL Server", "Python"],
-                "date": "August 2024 - December 2024",
+                "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
+                "date": "2024",
                 "href": "/experience/work/cfe.png",
                 "alt": "CFE"
             }
