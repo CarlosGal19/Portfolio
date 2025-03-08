@@ -41,7 +41,7 @@ export default function Header() {
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
                 <Image
-                    src="/menu.svg"
+                    src="/mobile/menu.svg"
                     alt="Menu"
                     width={50}
                     height={50}
@@ -86,7 +86,7 @@ export default function Header() {
                             onClick={() => setShowMobileMenu(false)}
                         >
                             <Image
-                                src="/close.svg"
+                                src="/mobile/close.svg"
                                 alt="Close"
                                 width={50}
                                 height={50}

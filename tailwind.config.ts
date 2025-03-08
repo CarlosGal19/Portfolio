@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "universe_image": "url('/bg.svg')",
-        "universe_image_mobile": "url('/bg-mobile.svg')",
+        "universe_image": "url('/bg/bg.svg')",
+        "universe_image_mobile": "url('/bg/bg-mobile.svg')",
       },
       colors: {
         background: "var(--background)",

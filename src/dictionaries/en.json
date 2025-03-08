@@ -12,19 +12,19 @@
         "certificationsTitle": "Certifications",
         "certifications": [
             {
-                "href": "/python.jpg",
+                "href": "/about/python.jpg",
                 "name": "Aprendiendo Python Nivel Intermedio",
                 "provider": "IA Center",
                 "alt": "Aprendiendo Python Nivel Intermedio"
             },
             {
-                "href": "/itep.jpg",
+                "href": "/about/itep.jpg",
                 "name": "ITEP",
                 "provider": "International Test of English Proficiency",
                 "alt": "ITEP"
             },
             {
-                "href": "/scrum.jpg",
+                "href": "/about/scrum.jpg",
                 "name": "Scrum Fundamentals Certified",
                 "provider": "CertiProf",
                 "alt": "Scrum Fundamentals Certified"
@@ -47,7 +47,7 @@
                 "description": "Web application to manage the library of the UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
                 "technologies": ["Nextjs", "MySQL", ".NET"],
                 "href": [
-                    "/utma-1.jpg", "/utma-2.jpg", "/utma-3.jpg"
+                    "/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"
                 ],
                 "alt": "UTMA Library Management System",
                 "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
@@ -58,7 +58,7 @@
                 "description": "CRUD application with microservices architecture using Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
                 "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma"],
                 "href": [
-                    "/microservices-1.jpg", "/microservices-2.jpg", "/microservices-3.jpg"
+                    "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
                 ],
                 "alt": "Microservices with Nodejs",
                 "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
@@ -100,21 +100,21 @@
                 "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
                 "degree": "Technician in Programming",
                 "date": "2019 - 2022",
-                "href": "/cbtis-282.jpg",
+                "href": "/experience/studies/cbtis-282.jpg",
                 "alt": "CBTIS 282"
             },
             {
                 "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
                 "degree": "Higher Technician in Information Technologies software development area",
                 "date": "2022 - 2024",
-                "href": "/utma.jpeg",
+                "href": "/experience/studies/utma.jpeg",
                 "alt": "UTMA"
             },
             {
                 "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
                 "degree": "Engineering in Information Technologies software development area",
                 "date": "2024 - Currently",
-                "href": "/utma.jpeg",
+                "href": "/experience/studies/utma.jpeg",
                 "alt": "UTMA"
             }
         ],
@@ -126,7 +126,7 @@
                 "description": "Development of system for the management of the CFE workers.",
                 "technologies": ["React", ".NET", "SQL Server", "Python"],
                 "date": "August 2024 - December 2024",
-                "href": "/cfe.png",
+                "href": "/experience/work/cfe.png",
                 "alt": "CFE"
             }
         ]
@@ -139,19 +139,19 @@
             {
                 "name": "GitHub",
                 "href": "https://github.com/CarlosGal19",
-                "icon": "/github.svg",
+                "icon": "/contact/github.svg",
                 "username": "CarlosGal19"
             },
             {
                 "name": "LinkedIn",
                 "href": "https://www.linkedin.com/in/carlosgalindoislas/",
-                "icon": "/linkedin.svg",
+                "icon": "/contact/linkedin.svg",
                 "username": "carlosgalindoislas"
             },
             {
                 "name": "Email",
                 "href": "mailto:c.galindo.islas@gmail.com",
-                "icon": "/email.svg"
+                "icon": "/contact/email.svg"
             }
         ]
     }
