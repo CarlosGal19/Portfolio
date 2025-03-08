@@ -10,7 +10,7 @@ export default function CustomWork({ work }: { work: Work }) {
                     alt={work.alt}
                     width={200}
                     height={200}
-                    className="object-cover rounded-md shadow-md"
+                    className="object-cover shadow-md"
                 />
             </div>
             <div className="flex flex-col w-full space-y-4 text-white">
