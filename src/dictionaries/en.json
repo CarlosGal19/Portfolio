@@ -77,7 +77,7 @@
             },
             {
                 "name": "Atenea",
-                "description": "Uncentralized system for the management, follow-up and analysis of police reports. Developed for the Cybersecurity Hackathon by Fundación Dedica and Seguridad Pública de Aguascalientes.",
+                "description": "Uncentralized system for the management, follow-up and analysis of police reports. Developed for the Cybersecurity Hackathon by Fundación Dedica, ICP Hub Latam and Seguridad Pública de Aguascalientes.",
                 "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
                 "alt": "Atenea",
                 "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
