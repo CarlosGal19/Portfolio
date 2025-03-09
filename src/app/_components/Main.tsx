@@ -6,14 +6,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 export default function Main({main}: { main: MainProps }) {
     return (
         <AnimatePresence mode='wait'>
-            <motion.div className="w-full h-full grid grid-cols-1 md:grid-cols-2"
+            <motion.div className='w-full h-full flex flex-col justify-center items-center'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.75 }}
             >
                 <section
-                    className="w-full flex flex-col justify-center items-center space-y-12 md:mt-32 mt-12 mb-20 md:mb-0"
+                    className="w-full flex flex-col justify-center items-center space-y-12 md:mt-20 mt-12 mb-20 md:mb-0"
                 >
                     <h1
                         className="text-8xl text-center"
@@ -27,7 +27,7 @@ export default function Main({main}: { main: MainProps }) {
                     </h2>
                 </section>
                 <section
-                    className="w-full flex justify-center items-center md:mt-32 mt-0"
+                    className="w-full flex justify-center items-center md:mt-16 mt-0"
                 >
                     <div
                         className="text-2xl text-center w-4/5 md:mb-0 mb-24"
