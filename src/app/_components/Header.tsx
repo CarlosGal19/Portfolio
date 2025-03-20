@@ -48,10 +48,8 @@ export default function Header() {
                     priority={true}
                 />
             </div>
-            <motion.div
+            <div
                 className="flex justify-between items-center hover:cursor-pointer"
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.75 }}
             >
                 <Link href="/"
                     aria-label="Home"
@@ -60,7 +58,7 @@ export default function Header() {
                     <CIcon fill="#FFFFFF" />
                     <GIcon fill="#FFFFFF" />
                 </Link>
-            </motion.div>
+            </div>
             <nav
                 className="hidden md:block"
             >
