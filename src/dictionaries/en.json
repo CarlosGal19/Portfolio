@@ -87,7 +87,10 @@
                 "name": "Talent Quest",
                 "description": "Platform of courses and certifications for the development of skills and competencies.. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
                 "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg"],
-                "completed": false
+                "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
+                "alt": "Talent Quest",
+                "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
+                "completed": true
             }
         ]
     },
