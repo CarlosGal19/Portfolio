@@ -86,11 +86,18 @@
             {
                 "name": "Talent Quest",
                 "description": "Platform of courses and certifications for the development of skills and competencies.. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
-                "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg"],
+                "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
                 "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
                 "alt": "Talent Quest",
                 "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
                 "completed": true
+            },
+            {
+                "name": "Yo Voy Ags App",
+                "description": "Mobile application for the management of public transport in Aguascalientes. Developed for the Hackathon Mobility 2025 by Coordinación General de Movilidad de Aguascalientes and Instituto de Educación de Aguascalientes (IEA).",
+                "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
+                "alt": "Yo Voy Aguascalientes",
+                "completed": false
             }
         ]
     },
