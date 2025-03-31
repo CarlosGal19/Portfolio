@@ -97,7 +97,8 @@
                 "description": "Mobile application for the management of public transport in Aguascalientes. Developed for the Hackathon Mobility 2025 by Coordinación General de Movilidad de Aguascalientes and Instituto de Educación de Aguascalientes (IEA).",
                 "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
                 "alt": "Yo Voy Aguascalientes",
-                "completed": false
+                "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
+                "completed": true
             }
         ]
     },
