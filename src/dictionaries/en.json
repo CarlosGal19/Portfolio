@@ -99,6 +99,12 @@
                 "alt": "Yo Voy Aguascalientes",
                 "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
                 "completed": true
+            },
+            {
+                "name": "QuickView",
+                "description": "System for previewing, managing and sending DICOM images to patients. System developed for the Hackathon by Genius Arena and Salud Digna (Hackaton Talent Lant 2025).",
+                "technologies": ["/languages/nextjs.svg", "/languages/gcloud.svg", "/languages/node.svg", "/languages/nestjs.svg", "/languages/prisma.svg", "/languages/postgresql.svg", "/languages/express.svg", "/languages/firebase.svg", "/languages/python.svg"],
+                "completed": false
             }
         ]
     },
