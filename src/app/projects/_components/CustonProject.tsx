@@ -29,7 +29,7 @@ export default function CustomProject({ project }: { project: Project }) {
                                 alt={tech}
                                 width={48}
                                 height={48}
-                                className="object-cover shadow-md"
+                                className="object-cover"
                             />
                         </li>
                     ))}
