@@ -102,9 +102,11 @@
             },
             {
                 "name": "QuickView",
-                "description": "System for previewing, managing and sending DICOM images to patients. System developed for the Hackathon by Genius Arena and Salud Digna (Hackaton Talent Lant 2025).",
-                "technologies": ["/languages/nextjs.svg", "/languages/gcloud.svg", "/languages/node.svg", "/languages/nestjs.svg", "/languages/prisma.svg", "/languages/postgresql.svg", "/languages/express.svg", "/languages/firebase.svg", "/languages/python.svg"],
-                "completed": false
+                "description": "System for previewing DICOM images and sending results to patients by WhatsApp. System developed for the Hackathon by Genius Arena and Salud Digna (Hackaton Talent Lant 2025).",
+                "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
+                "alt": "QuickView",
+                "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
+                "completed": true
             }
         ]
     },
