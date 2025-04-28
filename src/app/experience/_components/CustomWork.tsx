@@ -31,7 +31,7 @@ export default function CustomWork({ work }: { work: Work }) {
             </ul>
             <div className="flex flex-col w-full space-y-2 text-white">
                 <div className="flex justify-start items-center gap-4">
-                    <p className="text-md font-semibold text-gray-300 text-center lg:text-left bg-[#2563eb] rounded-xl p-1">
+                    <p className="text-md font-semibold text-white text-center lg:text-left bg-[#2563eb] rounded-xl p-1">
                         {work.date}
                     </p>
                     <p className="text-md lg:text-base font-semibold text-center lg:text-left bg-[#172554] rounded-xl p-1">
