@@ -66,6 +66,9 @@ export default function Header() {
                     <CIcon fill="#FFFFFF" />
                     <GIcon fill="#FFFFFF" />
                 </Link>
+                <div className="absolute right-12 top-10 md:hidden">
+                    <UpdateLanguage lang={lang} />
+                </div>
             </div>
             <nav
                 className="hidden md:block"

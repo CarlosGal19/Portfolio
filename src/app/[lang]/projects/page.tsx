@@ -8,7 +8,6 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
 
     const language = lang === "es" ? languageSpanish : languageEnglish;
 
-
     return (
         <Projects projects={language.projects} />
     );

@@ -11,8 +11,8 @@ export default function UpdateLanguage({ lang }: { lang: string }) {
     const restOfPath = parts.slice(1).join("/");
 
     return (
-        <li className="cursor-pointer">
-            <Link href={`/${langToUpdate}/${restOfPath}`} className="hover:text-blue-200">
+        <li className="cursor-pointer list-none">
+            <Link href={`/${langToUpdate}/${restOfPath}`}>
                 <Image
                     src={lang === 'es' ? "/languages/usa.svg" : "/languages/spain.svg"}
                     alt="Language"
