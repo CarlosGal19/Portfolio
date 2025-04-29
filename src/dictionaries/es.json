@@ -1,94 +1,170 @@
 {
     "main": {
-        "title": "Hola, soy Carlos Galindo",
-        "subtitle": "Soy desarrollador de software",
-        "description": "Cuento con experiencia en desarrollo web tanto frontend (Nextjs, React) como backend (Nodejs, .NET), así como en bases de datos (SQL Server, PostgreSQL, MySQL, MongoDB)."
+      "title": "Hola, soy Carlos Galindo",
+      "subtitle": "Soy desarrollador de software",
+      "description": "Desarrollador Full Stack Jr. con experiencia en desarrollo web. Me apasiona la tecnología y siempre estoy buscando aprender cosas nuevas."
     },
     "about": {
-        "title": "Sobre mí",
-        "description": "Soy desarrollador de software con experiencia en desarrollo web tanto frontend (Nextjs, React) como backend (Nodejs, .NET), así como en bases de datos (SQL Server, PostgreSQL, MySQL, MongoDB). Soy apasionado por la tecnología y siempre estoy buscando aprender cosas nuevas.",
-        "currentStack": "Mi Stack actual",
-        "stack": "Tecnologías con las que he trabajado",
-        "certifications": "Certificaciones"
+      "title": "Sobre mí",
+      "description": "Me considero una persona que siempre está buscando aprender cosas nuevas. Me gusta trabajar en equipo y siempre busco ayudar a los demás.",
+      "currentStack": "Mi stack actual",
+      "stack": "Tecnologías con las que he trabajado",
+      "certificationsTitle": "Certificaciones",
+      "certifications": [
+        {
+          "href": "/about/python.jpg",
+          "name": "Aprendiendo Python Nivel Intermedio",
+          "provider": "IA Center",
+          "alt": "Aprendiendo Python Nivel Intermedio"
+        },
+        {
+          "href": "/about/itep.jpg",
+          "name": "ITEP",
+          "provider": "International Test of English Proficiency",
+          "alt": "ITEP"
+        },
+        {
+          "href": "/about/scrum.jpg",
+          "name": "Scrum Fundamentals Certified",
+          "provider": "CertiProf",
+          "alt": "Scrum Fundamentals Certified"
+        }
+      ]
     },
     "projects": {
-        "title": "Proyectos",
-        "description": "Algunos de los proyectos en los que he trabajado",
-        "projects": [
-            {
-                "name": "Sistema de Gestión de Horas Extras de Trabajadores de la CFE",
-                "description": "Aplicación web para gestionar y registrar las horas extras de los trabajadores de la CFE (Comisión Federal de Electricidad).",
-                "technologies": ["React","Context API", ".NET", "SQL Server"],
-                "completed": true
-            },
-            {
-                "name": "Sistema de Gestión de Biblioteca de la UTMA",
-                "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
-                "technologies": ["Nextjs", "MySQL", ".NET"],
-                "href": [
-                    "/utma-1.jpg", "/utma-2.jpg", "/utma-3.jpg"
-                ],
-                "alt": "Sistema de Gestión de Biblioteca de la UTMA",
-                "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
-                "completed": true
-            },
-            {
-                "name": "Microservicios con Nodejs",
-                "description": "Aplicación CRUD con arquitectura de microservicios utilizando Nodejs y express como backend, Next como frontend y PostgreSQL como base de datos.",
-                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma"],
-                "href": [
-                    "/microservices-1.jpg", "/microservices-2.jpg", "/microservices-3.jpg"
-                ],
-                "alt": "Microservicios con Nodejs",
-                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
-                "completed": true
-            },
-            {
-                "name": "Microservicios con Docker",
-                "description": "Aplicación CRUD con arquitectura de microservicios utilizando Docker, Nodejs y express como backend, Next como frontend y PostgreSQL como base de datos.",
-                "technologies": ["Nextjs", "Nodejs", "Express", "PostgreSQL", "Prisma", "Docker"],
-                "completed": false
-            }
-        ]
+      "title": "Proyectos",
+      "description": "Algunos de los proyectos en los que he trabajado",
+      "projects": [
+        {
+          "name": "Sistema de Gestión de Horas Extra de Trabajadores CFE",
+          "description": "Aplicación web para gestionar y registrar las horas extra de los trabajadores de la CFE (Comisión Federal de Electricidad).",
+          "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
+          "completed": true
+        },
+        {
+          "name": "Sistema de Gestión de Biblioteca UTMA",
+          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
+          "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
+          "href": ["/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"],
+          "alt": "Sistema de Gestión de Biblioteca UTMA",
+          "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+          "completed": true
+        },
+        {
+          "name": "Microservicios con Nodejs",
+          "description": "Aplicación CRUD con arquitectura de microservicios usando Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
+          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg"],
+          "href": ["/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"],
+          "alt": "Microservicios con Nodejs",
+          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
+          "completed": true
+        },
+        {
+          "name": "Microservicios con Docker",
+          "description": "Aplicación CRUD con arquitectura de microservicios usando Docker, Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
+          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
+          "href": ["/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"],
+          "alt": "Microservicios con Docker y Nodejs",
+          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
+          "completed": true
+        },
+        {
+          "name": "Atenea",
+          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
+          "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
+          "alt": "Atenea",
+          "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
+          "completed": true
+        },
+        {
+          "name": "Talent Quest",
+          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias. Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
+          "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
+          "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
+          "alt": "Talent Quest",
+          "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
+          "completed": true
+        },
+        {
+          "name": "App Yo Voy Ags",
+          "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
+          "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
+          "alt": "Yo Voy Aguascalientes",
+          "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
+          "completed": true
+        },
+        {
+          "name": "QuickView",
+          "description": "Sistema para la visualización de imágenes DICOM y envío de resultados a pacientes vía WhatsApp. Sistema desarrollado para el Hackathon Genius Arena y Salud Digna (Hackathon Talent Lant 2025).",
+          "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
+          "alt": "QuickView",
+          "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
+          "completed": true
+        }
+      ]
     },
     "experience": {
-        "title": "Experiencia",
-        "description": "Estudios y experiencia laboral",
-        "studiesTitle": "Estudios",
-        "studies": [
-            {
-                "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
-                "degree": "Técnico en Programación",
-                "date": "2019 - 2022",
-                "href": "/cbtis-282.jpg",
-                "alt": "CBTIS 282"
-            },
-            {
-                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
-                "degree": "Técnico Superior Universitario en Tecnologías de la Información área desarrollo de software",
-                "date": "2022 - 2024",
-                "href": "/utma.jpeg",
-                "alt": "UTMA"
-            },
-            {
-                "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
-                "degree": "Ingeniería en Tecnologías de la Información área desarrollo de software",
-                "date": "2024 - Actualmente",
-                "href": "/utma.jpeg",
-                "alt": "UTMA"
-            }
-        ],
-        "workTitle": "Experiencia Laboral",
-        "workExperience": [
-            {
-                "company": "Comisión Federal de Electricidad",
-                "position": "Desarrollador de Software",
-                "description": "Desarrollo de sistema para la gestión de horas extras de los trabajadores de la CFE.",
-                "technologies": ["React", ".NET", "SQL Server"],
-                "date": "Agosto 2024 - Diciembre 2024",
-                "href": "/cfe.jpg",
-                "alt": "CFE"
-            }
-        ]
+      "title": "Experiencia",
+      "description": "Trabajos y estudios",
+      "studiesTitle": "Estudios",
+      "studies": [
+        {
+          "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
+          "degree": "Técnico en Programación",
+          "date": "2019 - 2022",
+          "href": "/experience/studies/cbtis-282.jpg",
+          "alt": "CBTIS 282"
+        },
+        {
+          "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+          "degree": "Técnico Superior Universitario en Tecnologías de la Información área desarrollo de software",
+          "date": "2022 - 2024",
+          "href": "/experience/studies/utma.jpeg",
+          "alt": "UTMA"
+        },
+        {
+          "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+          "degree": "Ingeniería en Tecnologías de la Información área desarrollo de software",
+          "date": "2024 - Actualmente",
+          "href": "/experience/studies/utma.jpeg",
+          "alt": "UTMA"
+        }
+      ],
+      "workTitle": "Trabajo",
+      "workExperience": [
+        {
+          "company": "Comisión Federal de Electricidad",
+          "position": "Practicante de Desarrollo de Software",
+          "description": "Desarrollo de sistema para la gestión de los trabajadores de la CFE.",
+          "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
+          "date": "2024",
+          "href": "/experience/work/cfe.png",
+          "alt": "CFE"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Puedes enviarme un correo o seguirme en mis redes sociales.",
+      "contactTitle": "Contáctame en",
+      "socialNetworks": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/CarlosGal19",
+          "icon": "/contact/github.svg",
+          "username": "CarlosGal19"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://www.linkedin.com/in/carlosgalindoislas/",
+          "icon": "/contact/linkedin.svg",
+          "username": "carlosgalindoislas"
+        },
+        {
+          "name": "Correo",
+          "href": "mailto:c.galindo.islas@gmail.com",
+          "icon": "/contact/email.svg"
+        }
+      ]
     }
-}
+  }
