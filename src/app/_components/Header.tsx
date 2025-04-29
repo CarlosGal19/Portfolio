@@ -8,6 +8,7 @@ import { useState } from "react";
 import GIcon from "./Icons/GIcon";
 import DesktopNavigationItem from "./Header/DesktopNavigationItem";
 import MobileNavigationItem from "./Header/MobileNavigationItem";
+import { useParams } from "next/navigation";
 
 const Links = [
     {
@@ -30,6 +31,8 @@ const Links = [
 
 export default function Header() {
 
+    const { lang } = useParams() as { lang: string };
+
     const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
 
     return (
@@ -51,7 +54,7 @@ export default function Header() {
             <div
                 className="flex justify-between items-center hover:cursor-pointer"
             >
-                <Link href="/"
+                <Link href={`/${lang}`}
                     aria-label="Home"
                     className="flex"
                 >
@@ -65,7 +68,7 @@ export default function Header() {
                 <ul className="flex justify-evenly items-center space-x-12 text-xl font-medium">
                     {
                         Links.map((link, index) => (
-                            <DesktopNavigationItem key={index} href={link.href} text={link.text} />
+                            <DesktopNavigationItem key={index} href={link.href} text={link.text} lang={lang} />
                         ))
                     }
                 </ul>
@@ -94,7 +97,7 @@ export default function Header() {
                         <div
                             className="mb-16"
                         >
-                            <Link href="/"
+                            <Link href={`/${lang}`}
                                 onClick={() => setShowMobileMenu(false)}
                                 aria-label="Home"
                                 className="flex"
@@ -105,7 +108,7 @@ export default function Header() {
                         </div>
                         <ul className="space-y-20 text-[#000044] text-2xl font-bold flex flex-col items-center">
                             {Links.map((link, index) => (
-                                <MobileNavigationItem key={index} link={link} setShowMobileMenu={setShowMobileMenu} />
+                                <MobileNavigationItem key={index} link={link} setShowMobileMenu={setShowMobileMenu} lang={lang} />
                             ))}
                         </ul>
                     </motion.div>

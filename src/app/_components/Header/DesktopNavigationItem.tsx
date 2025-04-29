@@ -2,7 +2,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-export default function DesktopNavigationItem({ href, text }: { href: string, text: string }) {
+export default function DesktopNavigationItem({ href, text, lang }: { href: string, text: string, lang: string }) {
 
     const pathName = usePathname();
 
@@ -11,7 +11,7 @@ export default function DesktopNavigationItem({ href, text }: { href: string, te
             className="cursor-pointer"
         >
             <Link
-                href={href}
+                href={`/${lang}${href}`}
                 className={`hover:text-blue-200 ${pathName === href ? "text-blue-200" : ""}`}
             >
                 <motion.div
