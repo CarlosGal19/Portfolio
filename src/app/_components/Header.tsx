@@ -9,6 +9,7 @@ import GIcon from "./Icons/GIcon";
 import DesktopNavigationItem from "./Header/DesktopNavigationItem";
 import MobileNavigationItem from "./Header/MobileNavigationItem";
 import { useParams } from "next/navigation";
+import UpdateLanguage from "./Header/UpdateLanguage";
 
 const Links = [
     {
@@ -75,6 +76,7 @@ export default function Header() {
                             <DesktopNavigationItem key={index} href={link.href} text={lang === 'es' ? link.textEs : link.textEn} lang={lang} />
                         ))
                     }
+                    <UpdateLanguage lang={lang} />
                 </ul>
             </nav>
             <AnimatePresence>
