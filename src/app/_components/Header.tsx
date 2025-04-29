@@ -13,19 +13,23 @@ import { useParams } from "next/navigation";
 const Links = [
     {
         href: "/about",
-        text: "About"
+        textEn: "About",
+        textEs: "Sobre mí"
     },
     {
         href: "/projects",
-        text: "Projects"
+        textEn: "Projects",
+        textEs: "Proyectos"
     },
     {
         href: "/experience",
-        text: "Experience"
+        textEn: "Experience",
+        textEs: "Experiencia"
     },
     {
         href: "/contact",
-        text: "Contact"
+        textEn: "Contact",
+        textEs: "Contacto"
     }
 ]
 
@@ -68,7 +72,7 @@ export default function Header() {
                 <ul className="flex justify-evenly items-center space-x-12 text-xl font-medium">
                     {
                         Links.map((link, index) => (
-                            <DesktopNavigationItem key={index} href={link.href} text={link.text} lang={lang} />
+                            <DesktopNavigationItem key={index} href={link.href} text={lang === 'es' ? link.textEs : link.textEn} lang={lang} />
                         ))
                     }
                 </ul>
@@ -108,7 +112,7 @@ export default function Header() {
                         </div>
                         <ul className="space-y-20 text-[#000044] text-2xl font-bold flex flex-col items-center">
                             {Links.map((link, index) => (
-                                <MobileNavigationItem key={index} link={link} setShowMobileMenu={setShowMobileMenu} lang={lang} />
+                                <MobileNavigationItem key={index} href={link.href} text={lang === 'es' ? link.textEs : link.textEn} setShowMobileMenu={setShowMobileMenu} lang={lang} />
                             ))}
                         </ul>
                     </motion.div>
