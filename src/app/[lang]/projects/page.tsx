@@ -2,7 +2,7 @@ import Projects from "./_components/Projects";
 import languageEnglish from "@/dictionaries/en.json";
 import languageSpanish from "@/dictionaries/es.json";
 
-export default async function Page({ params }: { params: { lang: string } }) {
+export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
 
     const { lang } = await params;
 

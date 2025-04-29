@@ -3,7 +3,7 @@ import languageSpanish from "@/dictionaries/es.json";
 
 import Main from "../_components/Main";
 
-export default async function Page({ params }: { params: { lang: string } }) {
+export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
 
     const { lang } = await params;
 
