@@ -135,11 +135,20 @@
         {
           "company": "Comisión Federal de Electricidad",
           "position": "Practicante de Desarrollo de Software",
-          "description": "Desarrollo de sistema para la gestión de los trabajadores de la CFE.",
+          "description": "Como practicante, desarrollé un sistema de gestión de trabajadores para la Comisión Federal de Electricidad (CFE), basado en un modelo jerárquico de roles: Capturista, Jefe de Oficina, Jefe de Departamento y Superintendente. El sistema permitía registrar actividades que eran enviadas automáticamente al superior correspondiente para su revisión y validación, asegurando un flujo de trabajo eficiente y controlado.",
           "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
           "date": "2024",
           "href": "/experience/work/cfe.png",
           "alt": "CFE"
+        },
+        {
+          "company": "Balluff",
+          "position": "Practicante de Desarrollo de Software",
+          "description": "Como practicante, participé en diversas tareas, entre ellas: el mantenimiento y la ampliación de funcionalidades del sistema de Balluff encargado de monitorear los PLCs de la línea de producción (utilizando Ignition Designer); la optimización y mantenimiento de bases de datos con registros históricos provenientes de sensores de dicha línea; y el desarrollo de un sistema para gestionar las órdenes de la línea de producción hacia el almacén, utilizando una báscula industrial como medio de control.",
+          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
+          "date": "2025",
+          "href": "/experience/work/balluff.png",
+          "alt": "Balluff"
         }
       ]
     },

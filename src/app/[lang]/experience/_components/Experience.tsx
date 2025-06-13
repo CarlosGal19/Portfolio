@@ -41,8 +41,8 @@ export default function Experience({ experience }: { experience: ExperienceProps
                             {experience.workTitle}
                         </h2>
                         <div
-                            // className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-5/6 container mx-auto mt-12"
-                            className="flex justify-center w-5/6 container mx-auto mt-12"
+                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-5/6 container mx-auto mt-12"
+                            // className="flex justify-center w-5/6 container mx-auto mt-12"
                         >
                             {
                                 experience.workExperience.map((work, index) => (

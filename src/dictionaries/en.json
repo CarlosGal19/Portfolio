@@ -142,11 +142,20 @@
             {
                 "company": "Comisión Federal de Electricidad",
                 "position": "Software Developer Intern",
-                "description": "Development of system for the management of the CFE workers.",
+                "description": "As an intern, I developed a worker management system for the Comisión Federal de Electricidad (CFE), based on a hierarchical role model: Capturist, Office Manager, Department Manager, and Superintendent. The system allowed users to register activities, which were automatically forwarded to the corresponding supervisor for review and validation, ensuring an efficient and controlled workflow.",
                 "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
                 "date": "2024",
                 "href": "/experience/work/cfe.png",
                 "alt": "CFE"
+            },
+            {
+                "company": "Balluff",
+                "position": "Software Developer Intern",
+                "description": "As an intern, I participated in various tasks, including maintaining and extending the functionality of Balluff’s system, which monitors the PLCs on the production line (using Ignition Designer); optimizing and maintaining databases with historical records from the line's sensors; and developing a system to manage production line orders sent to the warehouse, using an industrial scale as a control mechanism.",
+                "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
+                "date": "2025",
+                "href": "/experience/work/balluff.png",
+                "alt": "Balluff"
             }
         ]
     },
