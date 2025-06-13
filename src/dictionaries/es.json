@@ -100,6 +100,13 @@
           "alt": "QuickView",
           "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
           "completed": true
+        },
+        {
+          "name": "Sistema de Gestión de Ordenes de Inventario Balluff",
+          "description": "Aplicación de escritorio para la gestión de órdenes de la línea de producción enviadas al almacén. El sistema registra y mantiene un historial de todas las órdenes, lo que permite una mejor trazabilidad y planificación del inventario. Se comunica con una báscula industrial mediante una conexión serial RS-232 para garantizar mediciones de peso precisas y un control efectivo de las órdenes.",
+          "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
+          "alt": "BWOMS",
+          "completed": true
         }
       ]
     },

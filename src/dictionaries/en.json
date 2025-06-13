@@ -107,6 +107,13 @@
                 "alt": "QuickView",
                 "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
                 "completed": true
+            },
+            {
+                "name": "Balluff Warehouse Orders Management System",
+                "description": "Desktop application for managing production line orders sent to the warehouse. The system records and maintains a history of all orders, enabling better traceability and inventory planning. It communicates with an industrial scale via a serial RS-232 connection to ensure accurate weight measurements and order control.",
+                "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
+                "alt": "BWOMS",
+                "completed": true
             }
         ]
     },
