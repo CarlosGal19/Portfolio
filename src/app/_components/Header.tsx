@@ -28,6 +28,11 @@ const Links = [
         textEs: "Experiencia"
     },
     {
+        href: "/Zurich",
+        textEn: "Zürich",
+        textEs: "Zúrich"
+    },
+    {
         href: "/contact",
         textEn: "Contact",
         textEs: "Contacto"

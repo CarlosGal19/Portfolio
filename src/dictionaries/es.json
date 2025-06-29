@@ -182,5 +182,73 @@
           "icon": "/contact/email.svg"
         }
       ]
+    },
+    "zurich": {
+      "title": "Deep Dive Into Blockchain 2025 por la UZH.",
+      "description": "Recibí una de las 10 becas ofrecidas por Internet Computer Protocol (ICP), Fundación DFINITY y la Universidad de Zúrich a nivel mundial para participar en el programa de Escuela Internacional de Verano de tres semanas 'Deep Dive Into Blockchain 2025', organizado por ICP y la Universidad de Zúrich, del 30 de junio al 19 de julio de 2025, en el campus central de la UZH.",
+      "cards": [
+            {
+                "description": "",
+                "img": "",
+                "alt": ""
+            },
+            {
+                "description": "",
+                "img": "",
+                "alt": ""
+            },
+            {
+                "description": "",
+                "img": "",
+                "alt": ""
+            }
+      ],
+      "posts": {
+        "title": "Estas son algunas de las instituciones y personas que compartieron la noticia.",
+        "sites": [
+          {
+            "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
+            "individual": "Tere Jiménez",
+            "link": "https://www.facebook.com/share/p/1AtdgKCctS/",
+            "img": "/zurich/posts/tere_jimenez.jpg",
+            "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
+          },
+          {
+            "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
+            "individual": "ICP Hub México",
+            "link": "https://x.com/icphub_MX/status/1929636726500143292",
+            "img": "/zurich/posts/icp.jpeg",
+            "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
+          },
+          {
+            "title": "Orgullo hidrocálido en Suiza",
+            "individual": "UTMA",
+            "link": "https://www.instagram.com/p/DKzqMbrx7ls/?utm_source=ig_web_copy_link",
+            "img": "/zurich/posts/utma.png",
+            "alt": "Orgullo hidrocálido en Suiza"
+          },
+          {
+            "title": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza",
+            "individual": "JLM Noticias",
+            "link": "https://jlmnoticias.com/2025/06/12/estudiante-de-la-utma-es-el-unico-mexicano-seleccionado-para-una-beca-en-suiza/",
+            "img": "/zurich/posts/jlm_noticias.webp",
+            "alt": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza"
+          },
+          {
+            "title": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain",
+            "individual": "BeinCrypto",
+            "link": "https://es.beincrypto.com/estudiante-utma-unico-mexicano-obtener-beca-suiza-reto-blockchain/",
+            "img": "/zurich/posts/bein_crypto.webp",
+            "alt": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain"
+          },
+          {
+            "title": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain.",
+            "individual": "Layer 2",
+            "link": "https://www.linkedin.com/posts/layer-2_shopify-aceptar%C3%A1-usdc-a-trav%C3%A9s-de-coinbase-activity-7340368841794809856-jpnj?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEQTDvkBX6nUnw4WiB3uxHP7kQESWLRkzdA&utm_campaign=whatsapp",
+            "img": "/zurich/posts/layer_2.jpg",
+            "alt": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain."
+          }
+        ]
+      }
     }
-  }
+}
