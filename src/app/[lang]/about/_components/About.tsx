@@ -61,7 +61,7 @@ export default function About({ about }: { about: AboutProps }) {
                     className='container mx-auto flex justify-center px-4'
                 >
                     <Image
-                        src={`https://skillicons.dev/icons?i=ts,npm,postgres,tailwind,dotnet,next&perline=${windowWidth > 768 ? 8 : 3}`}
+                        src={`https://skillicons.dev/icons?i=ts,npm,postgres,tailwind,nest,next,docker&perline=${windowWidth > 768 ? 8 : 3}`}
                         alt="IT SKILLS"
                         width={windowWidth > 768 ? 1000 : 500}
                         height={200}
@@ -83,7 +83,7 @@ export default function About({ about }: { about: AboutProps }) {
                     className='container mx-auto mb-12 flex justify-center px-4'
                 >
                     <Image
-                        src={`https://skillicons.dev/icons?i=react,js,ts,nodejs,npm,express,py,fastapi,mysql,mongodb,php,java,cs,tailwind,cpp,dotnet,next,prisma,postgres,linux,docker&perline=${windowWidth > 768 ? 8 : 3}`}
+                        src={`https://skillicons.dev/icons?i=react,js,ts,nodejs,npm,express,py,fastapi,mysql,mongodb,php,java,cs,tailwind,cpp,dotnet,next,prisma,postgres,linux,docker,nest&perline=${windowWidth > 768 ? 8 : 3}`}
                         alt="IT SKILLS"
                         width={windowWidth > 768 ? 1000 : 500}
                         height={200}
