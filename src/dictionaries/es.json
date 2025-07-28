@@ -12,22 +12,28 @@
       "certificationsTitle": "Certificaciones",
       "certifications": [
         {
-          "href": "/about/python.jpg",
-          "name": "Aprendiendo Python Nivel Intermedio",
-          "provider": "IA Center",
-          "alt": "Aprendiendo Python Nivel Intermedio"
-        },
-        {
           "href": "/about/itep.jpg",
           "name": "ITEP",
           "provider": "International Test of English Proficiency",
           "alt": "ITEP"
         },
         {
+          "href": "/about/uzh_certificate.png",
+          "name": "Deep Dive into Blockchain",
+          "provider": "Universidad de Zúrich (UZH)",
+          "alt": "DDiB"
+        },
+        {
           "href": "/about/scrum.jpg",
           "name": "Scrum Fundamentals Certified",
           "provider": "CertiProf",
           "alt": "Scrum Fundamentals Certified"
+        },
+        {
+          "href": "/about/python.jpg",
+          "name": "Aprendiendo Python Nivel Intermedio",
+          "provider": "IA Center",
+          "alt": "Aprendiendo Python Nivel Intermedio"
         }
       ]
     },
@@ -128,6 +134,13 @@
           "date": "2022 - 2024",
           "href": "/experience/studies/utma.jpeg",
           "alt": "UTMA"
+        },
+        {
+          "name": "Universidad de Zúrich",
+          "degree": "Curso Deep Dive into Blockchain de escuela de verano",
+          "date": "2025",
+          "href": "/experience/studies/uzh.jpg",
+          "alt": "UZH"
         },
         {
           "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
