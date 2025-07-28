@@ -201,19 +201,19 @@
       "description": "Recibí una de las 10 becas ofrecidas por Internet Computer Protocol (ICP), Fundación DFINITY y la Universidad de Zúrich a nivel mundial para participar en el programa de Escuela Internacional de Verano de tres semanas 'Deep Dive Into Blockchain 2025', organizado por ICP y la Universidad de Zúrich, del 30 de junio al 19 de julio de 2025, en el campus central de la UZH.",
       "cards": [
             {
-                "description": "",
-                "img": "",
-                "alt": ""
+              "description": "Campus principal de la Universidad de Zúrich (UZH)",
+              "img": "/zurich/card/me_uzh.jpg",
+              "alt": "Me at UZH Campus"
             },
             {
-                "description": "",
-                "img": "",
-                "alt": ""
+              "description": "Director del Centro de Blockchain de la UZH",
+              "img": "/zurich/card/tessone.jpg",
+              "alt": "Claudio J. Tessone"
             },
             {
-                "description": "",
-                "img": "",
-                "alt": ""
+              "description": "Oficinas de la Fundación DFINITY en Zúrich, Suiza.",
+              "img": "/zurich/card/dfinity.jpg",
+              "alt": "Dfinity Offices"
             }
       ],
       "posts": {

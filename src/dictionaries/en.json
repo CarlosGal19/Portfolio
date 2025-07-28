@@ -208,24 +208,19 @@
         "description": "I received one of the 10 scholarships offered by the Internet Computer Protocol (ICP), DFINITY Foundation and University of Zürich worldwide to participate in the three-week International Summer School program 'Deep Dive Into Blockchain 2025', organized by ICP and the University of Zürich, from June 30 to July 19, 2025, at UZH's central campus.",
         "cards": [
             {
-                "description": "",
-                "img": "",
-                "alt": ""
+                "description": "Main campus from University of Zürich (UZH)",
+                "img": "/zurich/card/me_uzh.jpg",
+                "alt": "Me at UZH Campus"
             },
             {
-                "description": "",
-                "img": "",
-                "alt": ""
+                "description": "Blockchain Center´s director from UZH",
+                "img": "/zurich/card/tessone.jpg",
+                "alt": "Claudio J. Tessone"
             },
             {
-                "description": "",
-                "img": "",
-                "alt": ""
-            },
-            {
-                "description": "",
-                "img": "",
-                "alt": ""
+                "description": "Offices of DFINITY Foundation in Zürich, Switzerland",
+                "img": "/zurich/card/dfinity.jpg",
+                "alt": "Dfinity Offices"
             }
         ],
         "posts": {

@@ -1,9 +1,9 @@
 "use client"
-// import { ZurichCard } from '@/types/zurich'
+import { ZurichCard } from '@/types/zurich'
 import {  ZurichPostSite, ZurichProps } from '@/types/zurich'
 import { motion, AnimatePresence } from 'framer-motion'
 import CustomPost from './Post/CustomPost'
-// import CustomCard from './Card/CustomCard'
+import CustomCard from './Card/CustomCard'
 
 export default function Zurich({ zurich }: { zurich: ZurichProps }) {
 
@@ -33,13 +33,13 @@ export default function Zurich({ zurich }: { zurich: ZurichProps }) {
                             {zurich.description}
                         </p>
                     </section>
-                    {/* <section className='mb-12'>
+                    <section className='mb-12'>
                         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12'>
                             {zurich.cards.map((card: ZurichCard, index: number) => (
                                 <CustomCard key={index} index={index} card={card} />
                             ))}
                         </div>
-                    </section> */}
+                    </section>
                     <section className='mb-12'>
                         <h2 className='md:text-5xl text-4xl text-center mb-12 px-12'>
                             {zurich.posts.title}
