@@ -43,13 +43,13 @@
       "projects": [
         {
           "name": "Sistema de Gestión de Horas Extra de Trabajadores CFE",
-          "description": "Aplicación web para gestionar y registrar las horas extra de los trabajadores de la CFE (Comisión Federal de Electricidad).",
+          "description": "Aplicación web para gestionar y registrar las horas extra de los trabajadores de la CFE (Comisión Federal de Electricidad). El sistema permite a los trabajadores registrar sus horas extra, las cuales son enviadas a sus respectivos supervisores para su revisión y aprobación. Proyecto desarrollado durante mi práctica en la CFE.",
           "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
           "completed": true
         },
         {
           "name": "Sistema de Gestión de Biblioteca UTMA",
-          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes).",
+          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). El sistema permite a los usuarios buscar libros, prestarlos y devolverlos, así como gestionar el inventario de la biblioteca.",
           "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
           "href": ["/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"],
           "alt": "Sistema de Gestión de Biblioteca UTMA",
@@ -76,7 +76,7 @@
         },
         {
           "name": "Atenea",
-          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
+          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Permite a los ciudadanos presentar reportes de manera segura y anónima, mientras que las autoridades pueden rastrear y analizar incidentes de manera eficiente. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
           "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
           "alt": "Atenea",
           "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
@@ -84,7 +84,7 @@
         },
         {
           "name": "Talent Quest",
-          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias. Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
+          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias.Permite a los usuarios acceder a una amplia variedad de cursos y certificaciones para mejorar sus habilidades y competencias en diferentes áreas.Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
           "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
           "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
           "alt": "Talent Quest",
@@ -93,7 +93,7 @@
         },
         {
           "name": "App Yo Voy Ags",
-          "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
+          "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Permite a los usuarios localizar rutas, paradas, recargar sus tarjetas de transporte y brindar retroalimentación sobre el servicio. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
           "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
           "alt": "Yo Voy Aguascalientes",
           "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
@@ -101,7 +101,7 @@
         },
         {
           "name": "QuickView",
-          "description": "Sistema para la visualización de imágenes DICOM y envío de resultados a pacientes vía WhatsApp. Sistema desarrollado para el Hackathon Genius Arena y Salud Digna (Hackathon Talent Lant 2025).",
+          "description": "Sistema para la visualización de imágenes DICOM y envío de resultados a pacientes vía WhatsApp. Permite a los profesionales médicos subir imágenes DICOM, generar informes y enviarlos directamente a los pacientes a través de WhatsApp para un acceso rápido y sencillo. Sistema desarrollado para el Hackathon Genius Arena y Salud Digna (Hackathon Talent Lant 2025).",
           "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
           "alt": "QuickView",
           "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
@@ -113,6 +113,21 @@
           "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
           "alt": "BWOMS",
           "completed": true
+        },
+        {
+          "name": "Balluff Maintenance System",
+          "description": "Aplicación web para gestionar y programar tareas de mantenimiento de las máquinas en la línea de producción. El sistema permite a los usuarios asignar tareas de mantenimiento, establecer fechas límite y rastrear el estado de cada tarea para garantizar el funcionamiento óptimo de la línea de producción.",
+          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
+          "alt": "Balluff Maintenance System",
+          "completed": true
+        },
+        {
+            "name": "Astro Eye",
+            "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
+            "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/gcloud.svg"],
+            "alt": "Astro Eye",
+            "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
+            "completed": true
         }
       ]
     },

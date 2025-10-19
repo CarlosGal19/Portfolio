@@ -16,7 +16,7 @@ export default function CustomProject({ project }: { project: Project }) {
             <p className="mb-4">{project.description}</p>
             <div className="mb-4">
                 <h3 className="text-lg font-semibold">{
-                    pathname.includes("es/") ? "Tecnologías utilizadas" : "Technologies used"
+                    pathname.includes("es/") ? "Tecnologías utilizadas" : "Used Technologies"
                 }:</h3>
                 <ul className="flex flex-wrap gap-2 mt-2">
                     {project.technologies.map((tech, index) => (
