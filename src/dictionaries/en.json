@@ -1,8 +1,8 @@
 {
     "main": {
-        "title": "Hi, I'm Carlos Galindo",
-        "subtitle": "I'm a software developer",
-        "description": "Jr. Full Stack Developer with experience in web development. I am passionate about technology and I am always looking to learn new things."
+    "title": "Hi, I'm Carlos Galindo",
+    "subtitle": "I'm a Software Developer",
+    "description": "Full Stack Developer focused on building scalable applications and well-structured APIs, always aiming for clean and efficient solutions."
     },
     "about": {
         "title": "About me",

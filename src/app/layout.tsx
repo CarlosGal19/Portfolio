@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Carlos Galindo Portfolio",
-  description: "Carlos Galindo is a JR. Fullstack Developer enthusiast for learning technologies and apply his knowledge in professional projects.",
+  description: "Carlos Galindo is a Fullstack Developer enthusiast for learning technologies and apply his knowledge in professional projects.",
 };
 
 export default function RootLayout({

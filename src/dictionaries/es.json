@@ -1,271 +1,339 @@
 {
-    "main": {
-      "title": "Hola, soy Carlos Galindo",
-      "subtitle": "Soy desarrollador de software",
-      "description": "Desarrollador Full Stack Jr. con experiencia en desarrollo web. Me apasiona la tecnología y siempre estoy buscando aprender cosas nuevas."
-    },
-    "about": {
-      "title": "Sobre mí",
-      "description": "Me considero una persona que siempre está buscando aprender cosas nuevas. Me gusta trabajar en equipo y siempre busco ayudar a los demás.",
-      "currentStack": "Mi stack actual",
-      "stack": "Tecnologías con las que he trabajado",
-      "certificationsTitle": "Certificaciones",
-      "certifications": [
-        {
-          "href": "/about/itep.jpg",
-          "name": "ITEP",
-          "provider": "International Test of English Proficiency",
-          "alt": "ITEP"
-        },
-        {
-          "href": "/about/uzh_certificate.png",
-          "name": "Deep Dive into Blockchain",
-          "provider": "Universidad de Zúrich (UZH)",
-          "alt": "DDiB"
-        },
-        {
-          "href": "/about/scrum.jpg",
-          "name": "Scrum Fundamentals Certified",
-          "provider": "CertiProf",
-          "alt": "Scrum Fundamentals Certified"
-        },
-        {
-          "href": "/about/python.jpg",
-          "name": "Aprendiendo Python Nivel Intermedio",
-          "provider": "IA Center",
-          "alt": "Aprendiendo Python Nivel Intermedio"
-        }
-      ]
-    },
-    "projects": {
-      "title": "Proyectos",
-      "description": "Algunos de los proyectos en los que he trabajado",
-      "projects": [
-        {
-          "name": "Sistema de Gestión de Horas Extra de Trabajadores CFE",
-          "description": "Aplicación web para gestionar y registrar las horas extra de los trabajadores de la CFE (Comisión Federal de Electricidad). El sistema permite a los trabajadores registrar sus horas extra, las cuales son enviadas a sus respectivos supervisores para su revisión y aprobación. Proyecto desarrollado durante mi práctica en la CFE.",
-          "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
-          "completed": true
-        },
-        {
-          "name": "Sistema de Gestión de Ordenes de Inventario Balluff",
-          "description": "Aplicación de escritorio para la gestión de órdenes de la línea de producción enviadas al almacén. El sistema registra y mantiene un historial de todas las órdenes, lo que permite una mejor trazabilidad y planificación del inventario. Se comunica con una báscula industrial mediante una conexión serial RS-232 para garantizar mediciones de peso precisas y un control efectivo de las órdenes.",
-          "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
-          "alt": "BWOMS",
-          "completed": true
-        },
-        {
-          "name": "Balluff Maintenance System",
-          "description": "Aplicación web para gestionar y programar tareas de mantenimiento de las máquinas en la línea de producción. El sistema permite a los usuarios asignar tareas de mantenimiento, establecer fechas límite y rastrear el estado de cada tarea para garantizar el funcionamiento óptimo de la línea de producción.",
-          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
-          "alt": "Balluff Maintenance System",
-          "completed": true
-        },
-        {
-          "name": "Astro Eye",
-          "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
-            "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/gcloud.svg"],
-            "alt": "Astro Eye",
-            "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
-            "completed": true
-          },
-        {
-          "name": "App Yo Voy Ags",
-          "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Permite a los usuarios localizar rutas, paradas, recargar sus tarjetas de transporte y brindar retroalimentación sobre el servicio. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
-          "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
-          "alt": "Yo Voy Aguascalientes",
-          "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
-          "completed": true
-        },
-        {
-          "name": "QuickView",
-          "description": "Sistema para la visualización de imágenes DICOM y envío de resultados a pacientes vía WhatsApp. Permite a los profesionales médicos subir imágenes DICOM, generar informes y enviarlos directamente a los pacientes a través de WhatsApp para un acceso rápido y sencillo. Sistema desarrollado para el Hackathon Genius Arena y Salud Digna (Hackathon Talent Lant 2025).",
-          "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
-          "alt": "QuickView",
-          "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
-          "completed": true
-        },
-        {
-          "name": "Atenea",
-          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Permite a los ciudadanos presentar reportes de manera segura y anónima, mientras que las autoridades pueden rastrear y analizar incidentes de manera eficiente. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
-          "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
-          "alt": "Atenea",
-          "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
-          "completed": true
-        },
-        {
-          "name": "Talent Quest",
-          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias.Permite a los usuarios acceder a una amplia variedad de cursos y certificaciones para mejorar sus habilidades y competencias en diferentes áreas.Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
-          "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
-          "alt": "Talent Quest",
-          "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
-          "completed": true
-        },
-        {
-          "name": "Microservicios con Docker",
-          "description": "Aplicación CRUD con arquitectura de microservicios usando Docker, Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
-          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
-
-          "alt": "Microservicios con Docker y Nodejs",
-          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
-          "completed": true
-        },
-        {
-          "name": "Sistema de Gestión de Biblioteca UTMA",
-          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). El sistema permite a los usuarios buscar libros, prestarlos y devolverlos, así como gestionar el inventario de la biblioteca.",
-          "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
-          "alt": "Sistema de Gestión de Biblioteca UTMA",
-          "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
-          "completed": true
-        }
-      ]
-    },
-    "experience": {
-      "title": "Experiencia",
-      "description": "Trabajos y estudios",
-      "studiesTitle": "Estudios",
-      "studies": [
-        {
-          "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
-          "degree": "Técnico en Programación",
-          "date": "2019 - 2022",
-          "href": "/experience/studies/cbtis-282.jpg",
-          "alt": "CBTIS 282"
-        },
-        {
-          "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
-          "degree": "Técnico Superior Universitario en Tecnologías de la Información área desarrollo de software",
-          "date": "2022 - 2024",
-          "href": "/experience/studies/utma.jpeg",
-          "alt": "UTMA"
-        },
-        {
-          "name": "Universidad de Zúrich",
-          "degree": "Curso Deep Dive into Blockchain de escuela de verano",
-          "date": "2025",
-          "href": "/experience/studies/uzh.jpg",
-          "alt": "UZH"
-        },
-        {
-          "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
-          "degree": "Ingeniería en Tecnologías de la Información área desarrollo de software",
-          "date": "2024 - Actualmente",
-          "href": "/experience/studies/utma.jpeg",
-          "alt": "UTMA"
-        }
-      ],
-      "workTitle": "Trabajo",
-      "workExperience": [
-        {
-          "company": "Comisión Federal de Electricidad",
-          "position": "Practicante de Desarrollo de Software",
-          "description": "Como practicante, desarrollé un sistema de gestión de trabajadores para la Comisión Federal de Electricidad (CFE), basado en un modelo jerárquico de roles: Capturista, Jefe de Oficina, Jefe de Departamento y Superintendente. El sistema permitía registrar actividades que eran enviadas automáticamente al superior correspondiente para su revisión y validación, asegurando un flujo de trabajo eficiente y controlado.",
-          "technologies": ["/languages/react.svg", "/languages/dotnet.svg", "/languages/sqlserver.svg", "/languages/python.svg"],
-          "date": "2024",
-          "href": "/experience/work/cfe.png",
-          "alt": "CFE"
-        },
-        {
-          "company": "Balluff",
-          "position": "Practicante de Desarrollo de Software",
-          "description": "Como practicante, participé en diversas tareas, entre ellas: el mantenimiento y la ampliación de funcionalidades del sistema de Balluff encargado de monitorear los PLCs de la línea de producción (utilizando Ignition Designer); la optimización y mantenimiento de bases de datos con registros históricos provenientes de sensores de dicha línea; y el desarrollo de un sistema para gestionar las órdenes de la línea de producción hacia el almacén, utilizando una báscula industrial como medio de control.",
-          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
-          "date": "2025",
-          "href": "/experience/work/balluff.png",
-          "alt": "Balluff"
-        }
-      ]
-    },
-    "contact": {
-      "title": "Contacto",
-      "description": "Puedes enviarme un correo o seguirme en mis redes sociales.",
-      "contactTitle": "Contáctame en",
-      "socialNetworks": [
-        {
-          "name": "GitHub",
-          "href": "https://github.com/CarlosGal19",
-          "icon": "/contact/github.svg",
-          "username": "CarlosGal19"
-        },
-        {
-          "name": "LinkedIn",
-          "href": "https://www.linkedin.com/in/carlosgalindoislas/",
-          "icon": "/contact/linkedin.svg",
-          "username": "carlosgalindoislas"
-        },
-        {
-          "name": "Correo",
-          "href": "mailto:c.galindo.islas@gmail.com",
-          "icon": "/contact/email.svg"
-        }
-      ]
-    },
-    "zurich": {
-      "title": "Deep Dive Into Blockchain 2025 por la UZH.",
-      "description": "Recibí una de las 10 becas ofrecidas por Internet Computer Protocol (ICP), Fundación DFINITY y la Universidad de Zúrich a nivel mundial para participar en el programa de Escuela Internacional de Verano de tres semanas 'Deep Dive Into Blockchain 2025', organizado por ICP y la Universidad de Zúrich, del 30 de junio al 19 de julio de 2025, en el campus central de la UZH.",
-      "cards": [
-            {
-              "description": "Campus principal de la Universidad de Zúrich (UZH)",
-              "img": "/zurich/card/me_uzh.jpg",
-              "alt": "Me at UZH Campus"
-            },
-            {
-              "description": "Director del Centro de Blockchain de la UZH",
-              "img": "/zurich/card/tessone.jpg",
-              "alt": "Claudio J. Tessone"
-            },
-            {
-              "description": "Oficinas de la Fundación DFINITY en Zúrich, Suiza.",
-              "img": "/zurich/card/dfinity.jpg",
-              "alt": "Dfinity Offices"
-            }
-      ],
-      "posts": {
-        "title": "Estas son algunas de las instituciones y personas que compartieron la noticia.",
-        "sites": [
-          {
-            "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
-            "individual": "Tere Jiménez",
-            "link": "https://www.facebook.com/share/p/1AtdgKCctS/",
-            "img": "/zurich/posts/tere_jimenez.jpg",
-            "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
-          },
-          {
-            "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
-            "individual": "ICP Hub México",
-            "link": "https://x.com/icphub_MX/status/1929636726500143292",
-            "img": "/zurich/posts/icp.jpeg",
-            "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
-          },
-          {
-            "title": "Orgullo hidrocálido en Suiza",
-            "individual": "UTMA",
-            "link": "https://www.instagram.com/p/DKzqMbrx7ls/?utm_source=ig_web_copy_link",
-            "img": "/zurich/posts/utma.png",
-            "alt": "Orgullo hidrocálido en Suiza"
-          },
-          {
-            "title": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza",
-            "individual": "JLM Noticias",
-            "link": "https://jlmnoticias.com/2025/06/12/estudiante-de-la-utma-es-el-unico-mexicano-seleccionado-para-una-beca-en-suiza/",
-            "img": "/zurich/posts/jlm_noticias.webp",
-            "alt": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza"
-          },
-          {
-            "title": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain",
-            "individual": "BeinCrypto",
-            "link": "https://es.beincrypto.com/estudiante-utma-unico-mexicano-obtener-beca-suiza-reto-blockchain/",
-            "img": "/zurich/posts/bein_crypto.webp",
-            "alt": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain"
-          },
-          {
-            "title": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain.",
-            "individual": "Layer 2",
-            "link": "https://www.linkedin.com/posts/layer-2_shopify-aceptar%C3%A1-usdc-a-trav%C3%A9s-de-coinbase-activity-7340368841794809856-jpnj?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEQTDvkBX6nUnw4WiB3uxHP7kQESWLRkzdA&utm_campaign=whatsapp",
-            "img": "/zurich/posts/layer_2.jpg",
-            "alt": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain."
-          }
-        ]
+  "main": {
+    "title": "Hola, soy Carlos Galindo",
+    "subtitle": "Desarrollador de software",
+    "description": "Desarrollador Full Stack enfocado en la creación de aplicaciones escalables y APIs bien estructuradas, siempre buscando soluciones limpias y eficientes."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Me considero una persona que siempre está buscando aprender cosas nuevas. Me gusta trabajar en equipo y siempre busco ayudar a los demás.",
+    "currentStack": "Mi stack actual",
+    "stack": "Tecnologías con las que he trabajado",
+    "certificationsTitle": "Certificaciones",
+    "certifications": [
+      {
+        "href": "/about/itep.jpg",
+        "name": "ITEP",
+        "provider": "International Test of English Proficiency",
+        "alt": "ITEP"
+      },
+      {
+        "href": "/about/uzh_certificate.png",
+        "name": "Deep Dive into Blockchain",
+        "provider": "Universidad de Zúrich (UZH)",
+        "alt": "DDiB"
+      },
+      {
+        "href": "/about/scrum.jpg",
+        "name": "Scrum Fundamentals Certified",
+        "provider": "CertiProf",
+        "alt": "Scrum Fundamentals Certified"
+      },
+      {
+        "href": "/about/python.jpg",
+        "name": "Aprendiendo Python Nivel Intermedio",
+        "provider": "IA Center",
+        "alt": "Aprendiendo Python Nivel Intermedio"
       }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Algunos de los proyectos en los que he trabajado",
+    "projects": [
+      {
+        "name": "Sistema de Gestión de Horas Extra de Trabajadores CFE",
+        "description": "Aplicación web para gestionar y registrar las horas extra de los trabajadores de la CFE (Comisión Federal de Electricidad). El sistema permite a los trabajadores registrar sus horas extra, las cuales son enviadas a sus respectivos supervisores para su revisión y aprobación. Proyecto desarrollado durante mi práctica en la CFE.",
+        "technologies": [
+          "/languages/react.svg",
+          "/languages/dotnet.svg",
+          "/languages/sqlserver.svg",
+          "/languages/python.svg"
+        ],
+        "completed": true
+      },
+      {
+        "name": "Sistema de Gestión de Ordenes de Inventario Balluff",
+        "description": "Aplicación de escritorio para la gestión de órdenes de la línea de producción enviadas al almacén. El sistema registra y mantiene un historial de todas las órdenes, lo que permite una mejor trazabilidad y planificación del inventario. Se comunica con una báscula industrial mediante una conexión serial RS-232 para garantizar mediciones de peso precisas y un control efectivo de las órdenes.",
+        "technologies": [
+          "/languages/python.svg",
+          "/languages/postgresql.svg"
+        ],
+        "alt": "BWOMS",
+        "completed": true
+      },
+      {
+        "name": "Balluff Maintenance System",
+        "description": "Aplicación web para gestionar y programar tareas de mantenimiento de las máquinas en la línea de producción. El sistema permite a los usuarios asignar tareas de mantenimiento, establecer fechas límite y rastrear el estado de cada tarea para garantizar el funcionamiento óptimo de la línea de producción.",
+        "technologies": [
+          "/languages/python.svg",
+          "/languages/javascript.svg",
+          "/languages/postgresql.svg"
+        ],
+        "alt": "Balluff Maintenance System",
+        "completed": true
+      },
+      {
+        "name": "Astro Eye",
+        "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
+        "technologies": [
+          "/languages/react.svg",
+          "/languages/node.svg",
+          "/languages/express.svg",
+          "/languages/mysql.svg",
+          "/languages/prisma.svg",
+          "/languages/gcloud.svg"
+        ],
+        "alt": "Astro Eye",
+        "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
+        "completed": true
+      },
+      {
+        "name": "App Yo Voy Ags",
+        "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Permite a los usuarios localizar rutas, paradas, recargar sus tarjetas de transporte y brindar retroalimentación sobre el servicio. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
+        "technologies": [
+          "/languages/expo.svg",
+          "/languages/node.svg",
+          "/languages/express.svg",
+          "/languages/mongo.svg",
+          "/languages/nestjs.svg",
+          "/languages/postgresql.svg",
+          "/languages/gcloud.svg",
+          "/languages/arduino.svg",
+          "/languages/nextjs.svg"
+        ],
+        "alt": "Yo Voy Aguascalientes",
+        "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
+        "completed": true
+      },
+      {
+        "name": "QuickView",
+        "description": "Sistema para la visualización de imágenes DICOM y envío de resultados a pacientes vía WhatsApp. Permite a los profesionales médicos subir imágenes DICOM, generar informes y enviarlos directamente a los pacientes a través de WhatsApp para un acceso rápido y sencillo. Sistema desarrollado para el Hackathon Genius Arena y Salud Digna (Hackathon Talent Lant 2025).",
+        "technologies": [
+          "/languages/gcloud.svg",
+          "/languages/node.svg",
+          "/languages/postgresql.svg",
+          "/languages/python.svg",
+          "/languages/vite.svg",
+          "/languages/typescript.svg"
+        ],
+        "alt": "QuickView",
+        "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
+        "completed": true
+      },
+      {
+        "name": "Atenea",
+        "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Permite a los ciudadanos presentar reportes de manera segura y anónima, mientras que las autoridades pueden rastrear y analizar incidentes de manera eficiente. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
+        "technologies": [
+          "/languages/icp.svg",
+          "/languages/react.svg",
+          "/languages/expo.svg",
+          "/languages/rust.svg"
+        ],
+        "alt": "Atenea",
+        "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
+        "completed": true
+      },
+      {
+        "name": "Talent Quest",
+        "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias.Permite a los usuarios acceder a una amplia variedad de cursos y certificaciones para mejorar sus habilidades y competencias en diferentes áreas.Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
+        "technologies": [
+          "/languages/react.svg",
+          "/languages/node.svg",
+          "/languages/express.svg",
+          "/languages/mysql.svg",
+          "/languages/prisma.svg",
+          "/languages/zustand.svg",
+          "/languages/gcloud.svg"
+        ],
+        "alt": "Talent Quest",
+        "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
+        "completed": true
+      },
+      {
+        "name": "Microservicios con Docker",
+        "description": "Aplicación CRUD con arquitectura de microservicios usando Docker, Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
+        "technologies": [
+          "/languages/nextjs.svg",
+          "/languages/node.svg",
+          "/languages/express.svg",
+          "/languages/postgresql.svg",
+          "/languages/prisma.svg",
+          "/languages/docker.svg"
+        ],
+        "alt": "Microservicios con Docker y Nodejs",
+        "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
+        "completed": true
+      },
+      {
+        "name": "Sistema de Gestión de Biblioteca UTMA",
+        "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). El sistema permite a los usuarios buscar libros, prestarlos y devolverlos, así como gestionar el inventario de la biblioteca.",
+        "technologies": [
+          "/languages/nextjs.svg",
+          "/languages/mysql.svg",
+          "/languages/dotnet.svg"
+        ],
+        "alt": "Sistema de Gestión de Biblioteca UTMA",
+        "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+        "completed": true
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "description": "Trabajos y estudios",
+    "studiesTitle": "Estudios",
+    "studies": [
+      {
+        "name": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 282",
+        "degree": "Técnico en Programación",
+        "date": "2019 - 2022",
+        "href": "/experience/studies/cbtis-282.jpg",
+        "alt": "CBTIS 282"
+      },
+      {
+        "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+        "degree": "Técnico Superior Universitario en Tecnologías de la Información área desarrollo de software",
+        "date": "2022 - 2024",
+        "href": "/experience/studies/utma.jpeg",
+        "alt": "UTMA"
+      },
+      {
+        "name": "Universidad de Zúrich",
+        "degree": "Curso Deep Dive into Blockchain de escuela de verano",
+        "date": "2025",
+        "href": "/experience/studies/uzh.jpg",
+        "alt": "UZH"
+      },
+      {
+        "name": "Universidad Tecnológica Metropolitana de Aguascalientes",
+        "degree": "Ingeniería en Tecnologías de la Información área desarrollo de software",
+        "date": "2024 - Actualmente",
+        "href": "/experience/studies/utma.jpeg",
+        "alt": "UTMA"
+      }
+    ],
+    "workTitle": "Trabajo",
+    "workExperience": [
+      {
+        "company": "Comisión Federal de Electricidad",
+        "position": "Practicante de Desarrollo de Software",
+        "description": "Como practicante, desarrollé un sistema de gestión de trabajadores para la Comisión Federal de Electricidad (CFE), basado en un modelo jerárquico de roles: Capturista, Jefe de Oficina, Jefe de Departamento y Superintendente. El sistema permitía registrar actividades que eran enviadas automáticamente al superior correspondiente para su revisión y validación, asegurando un flujo de trabajo eficiente y controlado.",
+        "technologies": [
+          "/languages/react.svg",
+          "/languages/dotnet.svg",
+          "/languages/sqlserver.svg",
+          "/languages/python.svg"
+        ],
+        "date": "2024",
+        "href": "/experience/work/cfe.png",
+        "alt": "CFE"
+      },
+      {
+        "company": "Balluff",
+        "position": "Practicante de Desarrollo de Software",
+        "description": "Como practicante, participé en diversas tareas, entre ellas: el mantenimiento y la ampliación de funcionalidades del sistema de Balluff encargado de monitorear los PLCs de la línea de producción (utilizando Ignition Designer); la optimización y mantenimiento de bases de datos con registros históricos provenientes de sensores de dicha línea; y el desarrollo de un sistema para gestionar las órdenes de la línea de producción hacia el almacén, utilizando una báscula industrial como medio de control.",
+        "technologies": [
+          "/languages/python.svg",
+          "/languages/javascript.svg",
+          "/languages/postgresql.svg"
+        ],
+        "date": "2025",
+        "href": "/experience/work/balluff.png",
+        "alt": "Balluff"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Puedes enviarme un correo o seguirme en mis redes sociales.",
+    "contactTitle": "Contáctame en",
+    "socialNetworks": [
+      {
+        "name": "GitHub",
+        "href": "https://github.com/CarlosGal19",
+        "icon": "/contact/github.svg",
+        "username": "CarlosGal19"
+      },
+      {
+        "name": "LinkedIn",
+        "href": "https://www.linkedin.com/in/carlosgalindoislas/",
+        "icon": "/contact/linkedin.svg",
+        "username": "carlosgalindoislas"
+      },
+      {
+        "name": "Correo",
+        "href": "mailto:c.galindo.islas@gmail.com",
+        "icon": "/contact/email.svg"
+      }
+    ]
+  },
+  "zurich": {
+    "title": "Deep Dive Into Blockchain 2025 por la UZH.",
+    "description": "Recibí una de las 10 becas ofrecidas por Internet Computer Protocol (ICP), Fundación DFINITY y la Universidad de Zúrich a nivel mundial para participar en el programa de Escuela Internacional de Verano de tres semanas 'Deep Dive Into Blockchain 2025', organizado por ICP y la Universidad de Zúrich, del 30 de junio al 19 de julio de 2025, en el campus central de la UZH.",
+    "cards": [
+      {
+        "description": "Campus principal de la Universidad de Zúrich (UZH)",
+        "img": "/zurich/card/me_uzh.jpg",
+        "alt": "Me at UZH Campus"
+      },
+      {
+        "description": "Director del Centro de Blockchain de la UZH",
+        "img": "/zurich/card/tessone.jpg",
+        "alt": "Claudio J. Tessone"
+      },
+      {
+        "description": "Oficinas de la Fundación DFINITY en Zúrich, Suiza.",
+        "img": "/zurich/card/dfinity.jpg",
+        "alt": "Dfinity Offices"
+      }
+    ],
+    "posts": {
+      "title": "Estas son algunas de las instituciones y personas que compartieron la noticia.",
+      "sites": [
+        {
+          "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
+          "individual": "Tere Jiménez",
+          "link": "https://www.facebook.com/share/p/1AtdgKCctS/",
+          "img": "/zurich/posts/tere_jimenez.jpg",
+          "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
+        },
+        {
+          "title": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA",
+          "individual": "ICP Hub México",
+          "link": "https://x.com/icphub_MX/status/1929636726500143292",
+          "img": "/zurich/posts/icp.jpeg",
+          "alt": "CARLOS GALINDO ENTRE LOS 10 SELECCIONADOS DEL MUNDO PARA BECA INTERNACIONAL EN SUIZA"
+        },
+        {
+          "title": "Orgullo hidrocálido en Suiza",
+          "individual": "UTMA",
+          "link": "https://www.instagram.com/p/DKzqMbrx7ls/?utm_source=ig_web_copy_link",
+          "img": "/zurich/posts/utma.png",
+          "alt": "Orgullo hidrocálido en Suiza"
+        },
+        {
+          "title": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza",
+          "individual": "JLM Noticias",
+          "link": "https://jlmnoticias.com/2025/06/12/estudiante-de-la-utma-es-el-unico-mexicano-seleccionado-para-una-beca-en-suiza/",
+          "img": "/zurich/posts/jlm_noticias.webp",
+          "alt": "Estudiante de la UTMA es el único mexicano seleccionado para una beca en Suiza"
+        },
+        {
+          "title": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain",
+          "individual": "BeinCrypto",
+          "link": "https://es.beincrypto.com/estudiante-utma-unico-mexicano-obtener-beca-suiza-reto-blockchain/",
+          "img": "/zurich/posts/bein_crypto.webp",
+          "alt": "Estudiante de UTMA es el único mexicano en obtener beca suiza para reto blockchain"
+        },
+        {
+          "title": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain.",
+          "individual": "Layer 2",
+          "link": "https://www.linkedin.com/posts/layer-2_shopify-aceptar%C3%A1-usdc-a-trav%C3%A9s-de-coinbase-activity-7340368841794809856-jpnj?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEQTDvkBX6nUnw4WiB3uxHP7kQESWLRkzdA&utm_campaign=whatsapp",
+          "img": "/zurich/posts/layer_2.jpg",
+          "alt": "Carlos Alejandro, único mexicano en obtener beca suiza para reto Blockchain."
+        }
+      ]
     }
+  }
 }
