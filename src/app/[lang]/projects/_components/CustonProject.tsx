@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Project } from "@/types/projects";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +10,7 @@ export default function CustomProject({ project }: { project: Project }) {
     const pathname = usePathname();
 
     return (
-        <div className="rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 bg-[#193272] border border-[#2563eb]">
+        <div className="relative rounded-lg p-6 pb-10 hover:shadow-lg transition-shadow duration-300 bg-[#193272] border border-[#2563eb]">
             <h2 className="text-2xl font-bold mb-2">{project.name}</h2>
             <p className="mb-4">{project.description}</p>
             <div className="mb-4">
@@ -38,13 +37,11 @@ export default function CustomProject({ project }: { project: Project }) {
             {project.github && (
                 <Link
                     href={project.github}
-                    className="text-blue-500 hover:text-blue-600 underline text-sm"
+                    className="absolute bottom-4 left-4 text-blue-500 hover:text-blue-600 underline text-sm"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    {
-                        pathname.includes("es/") ? "Ver en GitHub" : "View on GitHub"
-                    }
+                    {pathname.includes("es/") ? "Ver en GitHub" : "View on GitHub"}
                 </Link>
             )}
             {!project.completed && (
