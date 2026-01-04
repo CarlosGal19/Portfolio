@@ -48,49 +48,27 @@
           "completed": true
         },
         {
-          "name": "Sistema de Gestión de Biblioteca UTMA",
-          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). El sistema permite a los usuarios buscar libros, prestarlos y devolverlos, así como gestionar el inventario de la biblioteca.",
-          "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
-          "href": ["/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"],
-          "alt": "Sistema de Gestión de Biblioteca UTMA",
-          "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+          "name": "Sistema de Gestión de Ordenes de Inventario Balluff",
+          "description": "Aplicación de escritorio para la gestión de órdenes de la línea de producción enviadas al almacén. El sistema registra y mantiene un historial de todas las órdenes, lo que permite una mejor trazabilidad y planificación del inventario. Se comunica con una báscula industrial mediante una conexión serial RS-232 para garantizar mediciones de peso precisas y un control efectivo de las órdenes.",
+          "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
+          "alt": "BWOMS",
           "completed": true
         },
         {
-          "name": "Microservicios con Nodejs",
-          "description": "Aplicación CRUD con arquitectura de microservicios usando Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
-          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg"],
-          "href": ["/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"],
-          "alt": "Microservicios con Nodejs",
-          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
+          "name": "Balluff Maintenance System",
+          "description": "Aplicación web para gestionar y programar tareas de mantenimiento de las máquinas en la línea de producción. El sistema permite a los usuarios asignar tareas de mantenimiento, establecer fechas límite y rastrear el estado de cada tarea para garantizar el funcionamiento óptimo de la línea de producción.",
+          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
+          "alt": "Balluff Maintenance System",
           "completed": true
         },
         {
-          "name": "Microservicios con Docker",
-          "description": "Aplicación CRUD con arquitectura de microservicios usando Docker, Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
-          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
-          "href": ["/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"],
-          "alt": "Microservicios con Docker y Nodejs",
-          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
-          "completed": true
-        },
-        {
-          "name": "Atenea",
-          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Permite a los ciudadanos presentar reportes de manera segura y anónima, mientras que las autoridades pueden rastrear y analizar incidentes de manera eficiente. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
-          "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
-          "alt": "Atenea",
-          "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
-          "completed": true
-        },
-        {
-          "name": "Talent Quest",
-          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias.Permite a los usuarios acceder a una amplia variedad de cursos y certificaciones para mejorar sus habilidades y competencias en diferentes áreas.Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
-          "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
-          "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
-          "alt": "Talent Quest",
-          "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
-          "completed": true
-        },
+          "name": "Astro Eye",
+          "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
+            "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/gcloud.svg"],
+            "alt": "Astro Eye",
+            "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
+            "completed": true
+          },
         {
           "name": "App Yo Voy Ags",
           "description": "Aplicación móvil para la gestión del transporte público en Aguascalientes. Permite a los usuarios localizar rutas, paradas, recargar sus tarjetas de transporte y brindar retroalimentación sobre el servicio. Desarrollada para el Hackathon Mobility 2025 por la Coordinación General de Movilidad de Aguascalientes y el Instituto de Educación de Aguascalientes (IEA).",
@@ -108,26 +86,37 @@
           "completed": true
         },
         {
-          "name": "Sistema de Gestión de Ordenes de Inventario Balluff",
-          "description": "Aplicación de escritorio para la gestión de órdenes de la línea de producción enviadas al almacén. El sistema registra y mantiene un historial de todas las órdenes, lo que permite una mejor trazabilidad y planificación del inventario. Se comunica con una báscula industrial mediante una conexión serial RS-232 para garantizar mediciones de peso precisas y un control efectivo de las órdenes.",
-          "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
-          "alt": "BWOMS",
+          "name": "Atenea",
+          "description": "Sistema descentralizado para la gestión, seguimiento y análisis de reportes policiales. Permite a los ciudadanos presentar reportes de manera segura y anónima, mientras que las autoridades pueden rastrear y analizar incidentes de manera eficiente. Desarrollado para el Hackathon de Ciberseguridad por Fundación Dedica, ICP Hub Latam y Seguridad Pública de Aguascalientes.",
+          "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
+          "alt": "Atenea",
+          "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
           "completed": true
         },
         {
-          "name": "Balluff Maintenance System",
-          "description": "Aplicación web para gestionar y programar tareas de mantenimiento de las máquinas en la línea de producción. El sistema permite a los usuarios asignar tareas de mantenimiento, establecer fechas límite y rastrear el estado de cada tarea para garantizar el funcionamiento óptimo de la línea de producción.",
-          "technologies": ["/languages/python.svg", "/languages/javascript.svg", "/languages/postgresql.svg"],
-          "alt": "Balluff Maintenance System",
+          "name": "Talent Quest",
+          "description": "Plataforma de cursos y certificaciones para el desarrollo de habilidades y competencias.Permite a los usuarios acceder a una amplia variedad de cursos y certificaciones para mejorar sus habilidades y competencias en diferentes áreas.Proyecto desarrollado para el Hackathon Hackvolution GDN-e 2025 por NTT Data.",
+          "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
+          "alt": "Talent Quest",
+          "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
           "completed": true
         },
         {
-            "name": "Astro Eye",
-            "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
-            "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/gcloud.svg"],
-            "alt": "Astro Eye",
-            "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
-            "completed": true
+          "name": "Microservicios con Docker",
+          "description": "Aplicación CRUD con arquitectura de microservicios usando Docker, Nodejs y Express como backend, Next como frontend y PostgreSQL como base de datos.",
+          "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
+
+          "alt": "Microservicios con Docker y Nodejs",
+          "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
+          "completed": true
+        },
+        {
+          "name": "Sistema de Gestión de Biblioteca UTMA",
+          "description": "Aplicación web para gestionar la biblioteca de la UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). El sistema permite a los usuarios buscar libros, prestarlos y devolverlos, así como gestionar el inventario de la biblioteca.",
+          "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
+          "alt": "Sistema de Gestión de Biblioteca UTMA",
+          "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+          "completed": true
         }
       ]
     },

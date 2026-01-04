@@ -49,72 +49,6 @@
                 "completed": true
             },
             {
-                "name": "UTMA Library Management System",
-                "description": "Web application to manage the library of the UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). The system allows users to search for books, borrow and return them, as well as manage the inventory of the library.",
-                "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
-                "href": [
-                    "/projects/library/utma-1.jpg", "/projects/library/utma-2.jpg", "/projects/library/utma-3.jpg"
-                ],
-                "alt": "UTMA Library Management System",
-                "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
-                "completed": true
-            },
-            {
-                "name": "Microservices with Nodejs",
-                "description": "CRUD application with microservices architecture using Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
-                "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg"],
-                "href": [
-                    "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
-                ],
-                "alt": "Microservices with Nodejs",
-                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-api",
-                "completed": true
-            },
-            {
-                "name": "Microservices with Docker",
-                "description": "CRUD application with microservices architecture using Docker, Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
-                "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
-                "href": [
-                    "/projects/microservices/microservices-1.jpg", "/projects/microservices/microservices-2.jpg", "/projects/microservices/microservices-3.jpg"
-                ],
-                "alt": "Microservices with Docker and Nodejs",
-                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
-                "completed": true
-            },
-            {
-                "name": "Atenea",
-                "description": "Uncentralized system for the management, follow-up and analysis of police reports. It allows citizens to file reports securely and anonymously, while enabling authorities to efficiently track and analyze incidents. Developed for the Cybersecurity Hackathon by Fundación Dedica, ICP Hub Latam and Seguridad Pública de Aguascalientes.",
-                "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
-                "alt": "Atenea",
-                "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
-                "completed": true
-            },
-            {
-                "name": "Talent Quest",
-                "description": "Platform of courses and certifications for the development of skills and competencies. It allows users to access a wide variety of courses and certifications to improve their skills and competencies in different areas. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
-                "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
-                "href": ["/projects/talent-quest/talent-quest-1.png", "/projects/talent-quest/talent-quest-2.png", "/projects/talent-quest/talent-quest-3.png"],
-                "alt": "Talent Quest",
-                "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
-                "completed": true
-            },
-            {
-                "name": "Yo Voy Ags App",
-                "description": "Mobile application for the management of public transport in Aguascalientes. It allows users to locate routes, stops, recharge their transport cards, and provide feedback on the service. Developed for the Hackathon Mobility 2025 by Coordinación General de Movilidad de Aguascalientes and Instituto de Educación de Aguascalientes (IEA).",
-                "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
-                "alt": "Yo Voy Aguascalientes",
-                "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
-                "completed": true
-            },
-            {
-                "name": "QuickView",
-                "description": "System for previewing DICOM images and sending results to patients by WhatsApp. It allows medical professionals to upload DICOM images, generate reports, and send them directly to patients via WhatsApp for quick and easy access. System developed for the Hackathon by Genius Arena and Salud Digna (Hackaton Talent Lant 2025).",
-                "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
-                "alt": "QuickView",
-                "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
-                "completed": true
-            },
-            {
                 "name": "Balluff Warehouse Orders Management System",
                 "description": "Desktop application for managing production line orders sent to the warehouse. The system records and maintains a history of all orders, enabling better traceability and inventory planning. It communicates with an industrial scale via a serial RS-232 connection to ensure accurate weight measurements and order control.",
                 "technologies": ["/languages/python.svg", "/languages/postgresql.svg"],
@@ -134,6 +68,54 @@
                 "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/gcloud.svg"],
                 "alt": "Astro Eye",
                 "github": "https://github.com/CarlosGal19/AstroEye-Frontend",
+                "completed": true
+            },
+            {
+                "name": "Yo Voy Ags App",
+                "description": "Mobile application for the management of public transport in Aguascalientes. It allows users to locate routes, stops, recharge their transport cards, and provide feedback on the service. Developed for the Hackathon Mobility 2025 by Coordinación General de Movilidad de Aguascalientes and Instituto de Educación de Aguascalientes (IEA).",
+                "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg", "/languages/nextjs.svg"],
+                "alt": "Yo Voy Aguascalientes",
+                "github": "https://github.com/Codex-Utma/Yo_Voy_Ags_App",
+                "completed": true
+            },
+            {
+                "name": "QuickView",
+                "description": "System for previewing DICOM images and sending results to patients by WhatsApp. It allows medical professionals to upload DICOM images, generate reports, and send them directly to patients via WhatsApp for quick and easy access. System developed for the Hackathon by Genius Arena and Salud Digna (Hackaton Talent Lant 2025).",
+                "technologies": ["/languages/gcloud.svg", "/languages/node.svg","/languages/postgresql.svg", "/languages/python.svg", "/languages/vite.svg", "/languages/typescript.svg"],
+                "alt": "QuickView",
+                "github": "https://github.com/DigitalCare-SSAC/QuickView-Frontend",
+                "completed": true
+            },
+            {
+                "name": "Atenea",
+                "description": "Uncentralized system for the management, follow-up and analysis of police reports. It allows citizens to file reports securely and anonymously, while enabling authorities to efficiently track and analyze incidents. Developed for the Cybersecurity Hackathon by Fundación Dedica, ICP Hub Latam and Seguridad Pública de Aguascalientes.",
+                "technologies": ["/languages/icp.svg", "/languages/react.svg", "/languages/expo.svg", "/languages/rust.svg"],
+                "alt": "Atenea",
+                "github": "https://github.com/SofiaCamposH/ATENEA-IRIS",
+                "completed": true
+            },
+            {
+                "name": "Talent Quest",
+                "description": "Platform of courses and certifications for the development of skills and competencies. It allows users to access a wide variety of courses and certifications to improve their skills and competencies in different areas. Project developed for the Hackatón GDN-e 2025 by NTT Data.",
+                "technologies": ["/languages/react.svg", "/languages/node.svg", "/languages/express.svg", "/languages/mysql.svg", "/languages/prisma.svg", "/languages/zustand.svg", "/languages/gcloud.svg"],
+                "alt": "Talent Quest",
+                "github": "https://github.com/Codex-Utma/Talent-Quest-2.0",
+                "completed": true
+            },
+            {
+                "name": "UTMA Library Management System",
+                "description": "Web application to manage the library of the UTMA (Universidad Tecnológica Metropolitana de Aguascalientes). The system allows users to search for books, borrow and return them, as well as manage the inventory of the library.",
+                "technologies": ["/languages/nextjs.svg", "/languages/mysql.svg", "/languages/dotnet.svg"],
+                "alt": "UTMA Library Management System",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/library-utma",
+                "completed": true
+            },
+            {
+                "name": "Microservices with Docker",
+                "description": "CRUD application with microservices architecture using Docker, Nodejs and express as backend, Next as frontend and PostgreSQL as database.",
+                "technologies": ["/languages/nextjs.svg", "/languages/node.svg", "/languages/express.svg", "/languages/postgresql.svg", "/languages/prisma.svg", "/languages/docker.svg"],
+                "alt": "Microservices with Docker and Nodejs",
+                "github": "https://github.com/Carlos-Galindo-Personal-Projects/microservices-docker",
                 "completed": true
             }
         ]

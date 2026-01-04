@@ -35,25 +35,6 @@ export default function CustomProject({ project }: { project: Project }) {
                     ))}
                 </ul>
             </div>
-            {project.href && (
-                <div className="mb-4">
-                    <h4 className="text-lg font-semibold">{
-                        pathname.includes("es/") ? "Imágenes" : "Images"
-                    }:</h4>
-                    <div className="md:flex md:gap-2 grid grid-cols-2 gap-2 mt-2">
-                        {project.href.map((src, index) => (
-                            <Image
-                                key={index}
-                                src={src}
-                                alt={project.alt || `${project.name} ${index + 1}`}
-                                width={100}
-                                height={100}
-                                className="rounded-md"
-                            />
-                        ))}
-                    </div>
-                </div>
-            )}
             {project.github && (
                 <Link
                     href={project.github}
