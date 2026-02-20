@@ -74,6 +74,14 @@
         "completed": true
       },
       {
+        "name": "Plataforma de Streaming de Música en la Nube",
+        "description": "Reproductor de música full-stack tipo Spotify con arquitectura de streaming escalable. Construido con Angular y NestJS, utilizando PostgreSQL para datos relacionales, CassandraDB para registros de reproducción de alto volumen y Google Cloud Storage para la entrega de contenido multimedia. Incluye autenticación, listas de reproducción, búsqueda, estado de reproducción en tiempo real e interfaz responsiva.",
+        "technologies": ["/languages/angular.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/docker.svg"],
+        "alt": "Panel e interfaz de usuario de una plataforma de streaming de música",
+        "github": "",
+        "completed": false
+      },
+      {
         "name": "Astro Eye",
         "description": "Aplicación web que permite a los usuarios explorar y aprender sobre las imágenes astronómicas de la NASA. Los usuarios pueden visualizar imágenes en alta definición, leer descripciones detalladas y acceder a información adicional sobre cada imagen. La aplicación ofrece una forma atractiva de descubrir las maravillas del universo a través de la extensa colección de imágenes de la NASA. Proyecto desarrollado como parte del hackathon Nasa Space Apps Challenge 2025.",
         "technologies": [

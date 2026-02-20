@@ -71,6 +71,14 @@
                 "completed": true
             },
             {
+                "name": "Cloud Music Streaming Platform",
+                "description": "Full-stack Spotify-like music player with scalable streaming architecture. Built with Angular and NestJS, using PostgreSQL for relational data, CassandraDB for high-volume playback logs, and Google Cloud Storage for media delivery. Features authentication, playlists, search, real-time playback state, and responsive UI.",
+                "technologies": ["/languages/angular.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/docker.svg"],
+                "alt": "Music streaming platform dashboard and player UI",
+                "github": "",
+                "completed": false
+            },
+            {
                 "name": "Yo Voy Ags App",
                 "description": "Mobile application for the management of public transport in Aguascalientes. It allows users to locate routes, stops, recharge their transport cards, and provide feedback on the service. Developed for the Hackathon Mobility 2025 by Coordinación General de Movilidad de Aguascalientes and Instituto de Educación de Aguascalientes (IEA).",
                 "technologies": ["/languages/expo.svg", "/languages/node.svg", "/languages/mongo.svg", "/languages/nestjs.svg", "/languages/postgresql.svg", "/languages/gcloud.svg", "/languages/arduino.svg"],
